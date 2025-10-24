@@ -1,14 +1,14 @@
-# Do We Agree on What an “Audit” Is? — Anonymous Artifact Repository
+# Do We Agree on What an “Audit” Is?  Anonymous Artifact Repository
 
-> **Double-blind mode:** This repo is anonymized for peer review. Do not include author names, affiliations, or links that deanonymize the submission.
+> **Double-blind mode:** This repo is anonymized for peer review.
 
 This repository contains the **paper**, **figures**, **data collection**, **analysis artifacts**, and **reproducible results** for the study _Do We Agree on What an “Audit” Is? Toward Standardized Smart Contract Audit Reporting_.
 
 - **What this artifact includes**
-  - The camera-ready PDF of the paper in `paper/paper.pdf`.
+  - The paper PDF of the paper in `paper/paper.pdf`.
   - All figures used in the paper (exported) under `figures/`.
-  - Results bundles: `results/important_results/` and `results/recomputed/`.
-  - RQ2 Formal Concept Analysis (FCA) artifacts under `artifacts/RQ2_all19/`.
+  - Results bundles: `results/important_results/` and `results/data/`.
+  - RQ2 Formal Concept Analysis (FCA) artifacts under `artifacts/RQ2/`.
   - Data collection bundle under `data/collection/`.
   - Environment and usage docs in `requirements.txt` and `docs/`.
 
