@@ -1,0 +1,3 @@
+These risks do not pose a considerable risk to the contract or those who interact
+with it. They are code-style violations and deviations from standard practices. They
+should be highlighted and fixed nonetheless.

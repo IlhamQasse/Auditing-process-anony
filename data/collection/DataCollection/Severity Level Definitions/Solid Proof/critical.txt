@@ -1,0 +1,8 @@
+A vulnerability that
+can disrupt the
+contract functioning
+in a number of
+scenarios, or creates a
+risk that the contract
+may be broken. Immediate action to
+reduce risk level

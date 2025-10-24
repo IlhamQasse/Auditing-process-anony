@@ -1,0 +1,2 @@
+Medium severity vulnerability will affect the operation of the DeFi project. It is
+recommended to fix medium-risk vulnerabilities

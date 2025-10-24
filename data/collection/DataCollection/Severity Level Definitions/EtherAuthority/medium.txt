@@ -1,0 +1,1 @@
+Medium-level vulnerabilities are important to fix; however, they can’t lead to tokens lose

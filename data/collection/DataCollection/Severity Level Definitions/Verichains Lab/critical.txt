@@ -1,0 +1,2 @@
+A vulnerability that can disrupt the contract functioning; creates a critical
+risk to the contract; required to be fixed immediately

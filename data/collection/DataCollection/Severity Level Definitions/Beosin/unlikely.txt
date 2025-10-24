@@ -1,0 +1,2 @@
+Unlikely likelihood generally means that the vulnerability requires a high cost, or the exploitation
+conditions are very demanding and the vulnerability is highly difficult to trigger.

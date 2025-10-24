@@ -1,0 +1,65 @@
+year,feature,report_rate_pct,firm_rate_pct,n_reports,n_firms
+2018,Automated tools mentioned,40.0,50.0,5,4
+2019,Automated tools mentioned,0.0,0.0,1,1
+2020,Automated tools mentioned,100.0,100.0,4,4
+2021,Automated tools mentioned,53.3,57.1,15,14
+2022,Automated tools mentioned,61.3,64.0,31,25
+2023,Automated tools mentioned,81.8,89.7,44,29
+2024,Automated tools mentioned,74.3,76.0,35,25
+2025,Automated tools mentioned,75.0,69.2,16,13
+2018,Executive summary or summary table,80.0,75.0,5,4
+2019,Executive summary or summary table,100.0,100.0,1,1
+2020,Executive summary or summary table,75.0,75.0,4,4
+2021,Executive summary or summary table,100.0,100.0,15,14
+2022,Executive summary or summary table,100.0,100.0,31,25
+2023,Executive summary or summary table,100.0,100.0,44,29
+2024,Executive summary or summary table,100.0,100.0,35,25
+2025,Executive summary or summary table,100.0,100.0,16,13
+2018,Fix verification (follow-up),80.0,100.0,5,4
+2019,Fix verification (follow-up),100.0,100.0,1,1
+2020,Fix verification (follow-up),75.0,75.0,4,4
+2021,Fix verification (follow-up),40.0,42.9,15,14
+2022,Fix verification (follow-up),22.6,28.0,31,25
+2023,Fix verification (follow-up),18.2,27.6,44,29
+2024,Fix verification (follow-up),20.0,28.0,35,25
+2025,Fix verification (follow-up),50.0,61.5,16,13
+2018,Limitations / disclaimers,20.0,25.0,5,4
+2019,Limitations / disclaimers,0.0,0.0,1,1
+2020,Limitations / disclaimers,25.0,25.0,4,4
+2021,Limitations / disclaimers,40.0,42.9,15,14
+2022,Limitations / disclaimers,54.8,56.0,31,25
+2023,Limitations / disclaimers,63.6,72.4,44,29
+2024,Limitations / disclaimers,65.7,68.0,35,25
+2025,Limitations / disclaimers,43.8,46.2,16,13
+2018,Methodology,40.0,50.0,5,4
+2019,Methodology,0.0,0.0,1,1
+2020,Methodology,75.0,75.0,4,4
+2021,Methodology,80.0,85.7,15,14
+2022,Methodology,90.3,88.0,31,25
+2023,Methodology,95.5,100.0,44,29
+2024,Methodology,91.4,92.0,35,25
+2025,Methodology,93.8,92.3,16,13
+2018,Remediation guidance,100.0,100.0,5,4
+2019,Remediation guidance,100.0,100.0,1,1
+2020,Remediation guidance,100.0,100.0,4,4
+2021,Remediation guidance,100.0,100.0,15,14
+2022,Remediation guidance,96.8,96.0,31,25
+2023,Remediation guidance,100.0,100.0,44,29
+2024,Remediation guidance,100.0,100.0,35,25
+2025,Remediation guidance,87.5,92.3,16,13
+2018,Scope,80.0,75.0,5,4
+2019,Scope,100.0,100.0,1,1
+2020,Scope,75.0,75.0,4,4
+2021,Scope,100.0,100.0,15,14
+2022,Scope,90.3,92.0,31,25
+2023,Scope,100.0,100.0,44,29
+2024,Scope,91.4,92.0,35,25
+2025,Scope,100.0,100.0,16,13
+2018,Status recorded (per-issue),80.0,100.0,5,4
+2019,Status recorded (per-issue),100.0,100.0,1,1
+2020,Status recorded (per-issue),100.0,100.0,4,4
+2021,Status recorded (per-issue),66.7,71.4,15,14
+2022,Status recorded (per-issue),67.7,72.0,31,25
+2023,Status recorded (per-issue),77.3,79.3,44,29
+2024,Status recorded (per-issue),77.1,72.0,35,25
+2025,Status recorded (per-issue),81.2,84.6,16,13

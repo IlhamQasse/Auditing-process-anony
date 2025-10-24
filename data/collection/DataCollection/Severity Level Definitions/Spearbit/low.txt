@@ -1,0 +1,2 @@
+findings are a rare combination of circumstances to exploit, or offer little to no incentive
+to exploit but are recommended to be addressed

@@ -1,0 +1,16 @@
+
+Company,Project,Report_URL,Year,Detailed Findings,Limitations/Disclaimers,System/Protocol Overview,Scope,Recommendations/Guidance,Versioning & References,Executive Summary,Severity Model/Risk Classification,Methodology/Procedure,Findings Summary (Table),Status of Findings/Verification,Tools & Automation,Testing/Coverage Quality,Documentation Quality,Risk Taxonomy/Terminology & References,Threat/Trust Model,Privileged Roles & Centralisation Risks,Upgradeability/Governance Controls,Timeline/Engagement Details
+Assure DeFi,SHILLD,https://raw.githubusercontent.com/Assure-DeFi/Audits/main/20230830_ASSUREDEFI_SHILLD_SHILLD_Audit_230830_231102.pdf,2023,1,1,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0
+BitsLab (TonBit),TRC404,https://tonbit.xyz/reports/TRC404-Smart-Contract-Final-Audit-Report.pdf,2024,1,0,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,1
+Coinfabrik,Velar,https://www.coinfabrik.com/wp-content/uploads/2024/02/Velar-Audit-2024-02.pdf,2024,1,1,0,1,0,1,1,1,1,0,1,0,0,0,0,0,1,0,1
+Cyfrin,Strata PreDeposit,https://content.gitbook.com/content/AIDdJd2l2GSG7G3AslkV/blobs/rvG2qo4rJBtEZxlBVmqt/Strata%20x%20Cyfrin%20-%20Audit%20Report.pdf,2025,1,1,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0
+Halborn,Ondo Finance,https://docs.ondo.finance/pdf/Ondo-Halborn-Audit-Feb-2025.pdf,2025,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1
+Hashlock,ParagonsDAO,https://hashlock.com/wp-content/uploads/2024/08/ParagonsDAO-Smart-Contract-Audit-Report-Final-Report-V1.pdf,2024,1,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,1,0,1
+Hexens,1inch Crosschain,https://raw.githubusercontent.com/Hexens/Smart-Contract-Review-Public-Reports/main/1inch-crosschain-aug-25(Final).pdf,2023,1,0,1,1,0,1,1,1,1,1,0,0,0,0,1,0,0,0,1
+ImmuneBytes,cSigma,https://raw.githubusercontent.com/csigma-labs/audit-reports/main/cSigma%20Institutional%20Audit%20Report%20-%20Immunebytes.pdf,2023,1,1,1,0,1,0,0,1,1,0,1,0,0,1,0,0,0,0,0
+Iosiro,dHedge Platform,https://files.safe.de.fi/safe/files/audit/pdf/dHedge_Platform_Smart_Contract_Audit_iosiro.pdf,2021,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,1
+MixBytes,Conic Finance V2,https://conic.finance/media/MixBytes-Audit-Report-ConicFinance.pdf,2024,1,1,1,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0
+Pessimistic,CYBRO LPManager,https://raw.githubusercontent.com/pessimistic-io/audits/main/CYBRO%20LPManager%20Security%20Analysis%20by%20Pessimistic.pdf,2025,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,1
+Skeleton Ecosystem,One Square ERC20,https://raw.githubusercontent.com/SkeletonEcosystem/Audits/main/One%20Square%20Smart%20Contract%20Audit.pdf,2024,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1
+Veridise,Spectre (Sygma),https://docs.buildwithsygma.com/assets/files/[Veridise]_Chainsafe_Spectre_-_final_report-1f59841cb8234fed09fef3e402eb5f01.pdf,2024,1,0,1,1,1,0,1,1,1,0,0,0,1,0,1,0,0,0,1
+Verilog Solutions,U Protocol,https://verilog.solutions/audits/u-protocol,2023,1,0,1,1,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0

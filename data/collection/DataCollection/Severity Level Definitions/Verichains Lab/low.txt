@@ -1,0 +1,2 @@
+An issue that does not have a significant impact, can be considered as less
+important

@@ -1,0 +1,1424 @@
+
+<!DOCTYPE html>
+<html class="avada-html-layout-wide avada-html-header-position-top" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0117/6231.js" async="async"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name='robots' content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v24.1 (Yoast SEO v25.8) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>TraderDAOai Contracts Security Audit Report - Callisto Network</title>
+	<link rel="canonical" href="https://callisto.network/traderdaoai-contracts-security-audit-report/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="TraderDAOai Contracts Security Audit Report" />
+	<meta property="og:description" content="Security audit report of TraderDAOai by Callisto Network. We identify vulnerabilities to ensure fund safety. Explore our findings &amp; recommendations." />
+	<meta property="og:url" content="https://callisto.network/traderdaoai-contracts-security-audit-report/" />
+	<meta property="og:site_name" content="Callisto Network" />
+	<meta property="article:published_time" content="2023-05-23T11:18:34+00:00" />
+	<meta property="article:modified_time" content="2023-09-05T21:05:24+00:00" />
+	<meta property="og:image" content="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1342" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="tonton" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="15 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://callisto.network/traderdaoai-contracts-security-audit-report/","url":"https://callisto.network/traderdaoai-contracts-security-audit-report/","name":"TraderDAOai Contracts Security Audit Report - Callisto Network","isPartOf":{"@id":"https://callisto.network/#website"},"primaryImageOfPage":{"@id":"https://callisto.network/traderdaoai-contracts-security-audit-report/#primaryimage"},"image":{"@id":"https://callisto.network/traderdaoai-contracts-security-audit-report/#primaryimage"},"thumbnailUrl":"https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg","datePublished":"2023-05-23T11:18:34+00:00","dateModified":"2023-09-05T21:05:24+00:00","author":{"@id":"https://callisto.network/#/schema/person/f6e28f916a3bf31d2f2a3df7e36f7b83"},"breadcrumb":{"@id":"https://callisto.network/traderdaoai-contracts-security-audit-report/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://callisto.network/traderdaoai-contracts-security-audit-report/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://callisto.network/traderdaoai-contracts-security-audit-report/#primaryimage","url":"https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg","contentUrl":"https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg","width":2560,"height":1342,"caption":"TraderDAOai Contracts Security Audit Report"},{"@type":"BreadcrumbList","@id":"https://callisto.network/traderdaoai-contracts-security-audit-report/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://callisto.network/"},{"@type":"ListItem","position":2,"name":"TraderDAOai Contracts Security Audit Report"}]},{"@type":"WebSite","@id":"https://callisto.network/#website","url":"https://callisto.network/","name":"Callisto Network","description":"Blockchain As Seen By Security Experts","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://callisto.network/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://callisto.network/#/schema/person/f6e28f916a3bf31d2f2a3df7e36f7b83","name":"tonton","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://callisto.network/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/9dfcf9c9d9f666bf79951f090365c64bf6a1b3de523dfa3e1532e8e112d671cb?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/9dfcf9c9d9f666bf79951f090365c64bf6a1b3de523dfa3e1532e8e112d671cb?s=96&d=mm&r=g","caption":"tonton"},"url":"https://callisto.network/author/tonton/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<meta name="description" content="Security audit report of TraderDAOai by Callisto Network. We identify vulnerabilities to ensure fund safety. Explore our findings &amp; recommendations.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://callisto.network/traderdaoai-contracts-security-audit-report/">
+<meta property="og:url" content="https://callisto.network/traderdaoai-contracts-security-audit-report/">
+<meta property="og:site_name" content="Callisto Network">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="article:author" content="https://www.facebook.com/callistonetwork">
+<meta property="article:publisher" content="https://www.facebook.com/callistonetwork">
+<meta property="article:section" content="Smart Contract Audits">
+<meta property="article:tag" content="Security Audits">
+<meta property="og:title" content="TraderDAOai Smart Contract Audit Report by Callisto Network">
+<meta property="og:description" content="Security audit report of TraderDAOai by Callisto Network. We identify vulnerabilities to ensure fund safety. Explore our findings &amp; recommendations.">
+<meta property="og:image" content="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg">
+<meta property="og:image:secure_url" content="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg">
+<meta property="og:image:width" content="2560">
+<meta property="og:image:height" content="1342">
+<meta property="og:image:alt" content="TraderDAOai Contracts Security Audit Report">
+<meta property="fb:pages" content="">
+<meta property="fb:admins" content="">
+<meta property="fb:app_id" content="">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="https://twitter.com/CallistoSupport">
+<meta name="twitter:creator" content="https://twitter.com/CallistoSupport">
+<meta name="twitter:title" content="TraderDAOai Smart Contract Audit Report by Callisto Network">
+<meta name="twitter:description" content="Security audit report of TraderDAOai by Callisto Network. We identify vulnerabilities to ensure fund safety. Explore our findings &amp; recommendations.">
+<meta name="twitter:image" content="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-1024x537.jpg">
+<link rel='dns-prefetch' href='//callisto.network' />
+<link rel='dns-prefetch' href='//translate.google.com' />
+<link rel="alternate" type="application/rss+xml" title="Callisto Network &raquo; Feed" href="https://callisto.network/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Callisto Network &raquo; Comments Feed" href="https://callisto.network/comments/feed/" />
+					<link rel="shortcut icon" href="https://callisto.network/wp-content/uploads/2022/10/favicon-64.png" type="image/x-icon" />
+		
+		
+		
+				<link rel="alternate" type="application/rss+xml" title="Callisto Network &raquo; TraderDAOai Contracts Security Audit Report Comments Feed" href="https://callisto.network/traderdaoai-contracts-security-audit-report/feed/" />
+					<meta name="description" content="TraderDAOai v3 Security Audit Report 
+Are Your Funds Safe? 
+Our expert team at Callisto Network has conducted an in-depth security audit of the TraderDAOai v3 smart contract. This audit aims to ensure the security of your"/>
+				
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:site_name" content="Callisto Network"/>
+		<meta property="og:title" content="TraderDAOai Contracts Security Audit Report - Callisto Network"/>
+				<meta property="og:description" content="TraderDAOai v3 Security Audit Report 
+Are Your Funds Safe? 
+Our expert team at Callisto Network has conducted an in-depth security audit of the TraderDAOai v3 smart contract. This audit aims to ensure the security of your"/>
+				<meta property="og:url" content="https://callisto.network/traderdaoai-contracts-security-audit-report/"/>
+										<meta property="article:published_time" content="2023-05-23T11:18:34+00:00"/>
+							<meta property="article:modified_time" content="2023-09-05T21:05:24+00:00"/>
+								<meta name="author" content="tonton"/>
+								<meta property="og:image" content="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg"/>
+		<meta property="og:image:width" content="2560"/>
+		<meta property="og:image:height" content="1342"/>
+		<meta property="og:image:type" content="image/jpeg"/>
+				<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/mgroadmaptimeline/assets/frontend.css?ver=6.8.3">
+<link rel="stylesheet" href="https://callisto.network/wp-content/themes/Avada/css/pe-icon-7-stroke.css?ver=6.8.3">
+<link rel="stylesheet" href="https://callisto.network/wp-includes/css/dashicons.min.css?ver=6.8.3">
+<link rel="stylesheet" href="https://callisto.network/wp-includes/css/admin-bar.min.css?ver=6.8.3">
+<style id='admin-bar-inline-css' type='text/css'>
+
+    /* Hide CanvasJS credits for P404 charts specifically */
+    #p404RedirectChart .canvasjs-chart-credit {
+        display: none !important;
+    }
+    
+    #p404RedirectChart canvas {
+        border-radius: 6px;
+    }
+
+    .p404-redirect-adminbar-weekly-title {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 6px;
+    }
+
+    #wpadminbar #wp-admin-bar-p404_free_top_button .ab-icon:before {
+        content: "\f103";
+        color: #dc3545;
+        top: 3px;
+    }
+    
+    #wp-admin-bar-p404_free_top_button .ab-item {
+        min-width: 80px !important;
+        padding: 0px !important;
+    }
+    
+    /* Ensure proper positioning and z-index for P404 dropdown */
+    .p404-redirect-adminbar-dropdown-wrap { 
+        min-width: 0; 
+        padding: 0;
+        position: static !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button_dropdown {
+        position: static !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button_dropdown .ab-item {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .p404-redirect-dropdown-container {
+        min-width: 340px;
+        padding: 18px 18px 12px 18px;
+        background: #23282d !important;
+        color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+        margin-top: 10px;
+        position: relative !important;
+        z-index: 999999 !important;
+        display: block !important;
+        border: 1px solid #444;
+    }
+    
+    /* Ensure P404 dropdown appears on hover */
+    #wpadminbar #wp-admin-bar-p404_free_top_button .p404-redirect-dropdown-container { 
+        display: none !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button:hover .p404-redirect-dropdown-container { 
+        display: block !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button:hover #wp-admin-bar-p404_free_top_button_dropdown .p404-redirect-dropdown-container {
+        display: block !important;
+    }
+    
+    .p404-redirect-card {
+        background: #2c3338;
+        border-radius: 8px;
+        padding: 18px 18px 12px 18px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 1px solid #444;
+    }
+    
+    .p404-redirect-btn {
+        display: inline-block;
+        background: #dc3545;
+        color: #fff !important;
+        font-weight: bold;
+        padding: 5px 22px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: background 0.2s, box-shadow 0.2s;
+        margin-top: 8px;
+        box-shadow: 0 2px 8px rgba(220,53,69,0.15);
+        text-align: center;
+        line-height: 1.6;
+    }
+    
+    .p404-redirect-btn:hover {
+        background: #c82333;
+        color: #fff !important;
+        box-shadow: 0 4px 16px rgba(220,53,69,0.25);
+    }
+    
+    /* Prevent conflicts with other admin bar dropdowns */
+    #wpadminbar .ab-top-menu > li:hover > .ab-item,
+    #wpadminbar .ab-top-menu > li.hover > .ab-item {
+        z-index: auto;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button:hover > .ab-item {
+        z-index: 999998 !important;
+    }
+    
+</style>
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/extend-wpbakery-page-builder-plugin-example/assets/vc_extend.css?ver=6.8.3">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/google-language-translator/css/style.css?ver=6.0.20">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/google-language-translator/css/toolbar.css?ver=6.0.20">
+<link rel="stylesheet" href="https://callisto.network/wp-content/uploads/useanyfont/uaf.css?ver=1750348035">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/ai-engine-pro/themes/chatgpt.css?ver=1756886426">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=7.9">
+<link rel="stylesheet" href="https://callisto.network/wp-content/themes/Avada-Child-Theme/style.css?ver=6.8.3">
+<link rel="stylesheet" href="https://callisto.network/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=3.19.22">
+<link rel="stylesheet" href="https://callisto.network/wp-content/uploads/smile_fonts/icomoon/icomoon.css?ver=3.19.22">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/Ultimate_VC_Addons-3.19.22/assets/min-css/style.min.css?ver=3.19.22">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/Ultimate_VC_Addons-3.19.22/assets/min-css/animate.min.css?ver=3.19.22">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/Ultimate_VC_Addons-3.19.22/assets/min-css/info-box.min.css?ver=3.19.22">
+<link rel="stylesheet" href="https://callisto.network/wp-content/uploads/fusion-styles/d35aa184e444dadea1065c5188b57794.min.css?ver=3.13.1">
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2" id="wp-escape-html-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/dist/element.min.js?ver=a4eeeadd23c0d7ab1d2d" id="wp-element-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/ai-engine-pro/app/chatbot.js?ver=1756886426" id="mwai_chatbot-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/Ultimate_VC_Addons-3.19.22/assets/min-js/ultimate-params.min.js?ver=3.19.22" id="ultimate-vc-addons-params-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/Ultimate_VC_Addons-3.19.22/assets/min-js/jquery-appear.min.js?ver=3.19.22" id="ultimate-vc-addons-appear-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/Ultimate_VC_Addons-3.19.22/assets/min-js/custom.min.js?ver=3.19.22" id="ultimate-vc-addons-custom-js"></script>
+<script></script><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://callisto.network/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://callisto.network/?p=11984' />
+<meta name="cdp-version" content="1.5.0" /><style>p.hello{font-size:12px;color:darkgray;}#google_language_translator,#flags{text-align:left;}#google_language_translator{clear:both;}#flags{width:165px;}#flags a{display:inline-block;margin-right:2px;}#google_language_translator{width:auto!important;}div.skiptranslate.goog-te-gadget{display:inline!important;}.goog-tooltip{display: none!important;}.goog-tooltip:hover{display: none!important;}.goog-text-highlight{background-color:transparent!important;border:none!important;box-shadow:none!important;}#google_language_translator{color:transparent;}body{top:0px!important;}#goog-gt-{display:none!important;}font font{background-color:transparent!important;box-shadow:none!important;position:initial!important;}</style>		<link rel="manifest" href="https://callisto.network/wp-json/wp/v2/web-app-manifest">
+					<meta name="theme-color" content="#fff">
+								<meta name="apple-mobile-web-app-capable" content="yes">
+				<meta name="mobile-web-app-capable" content="yes">
+
+				
+				<meta name="apple-mobile-web-app-title" content="CLO">
+		<meta name="application-name" content="CLO">
+		<style>/* CSS added by WP Meta and Date Remover*/.wp-block-post-author__name{display:none !important;}
+.wp-block-post-date{display:none !important;}
+ .entry-meta {display:none !important;}
+	.home .entry-meta { display: none; }
+	.entry-footer {display:none !important;}
+	.home .entry-footer { display: none; }</style><link rel="preload" href="https://callisto.network/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="//callisto.network/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="//callisto.network/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="//callisto.network/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://callisto.network/wp-content/uploads/fusion-icons/icomoon-v1.0-1/fonts/icomoon.ttf?i9waq4" as="font" type="font/ttf" crossorigin><style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1024px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1025px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.7.37 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style type="text/css" id="sns_global_styles">:root {
+--body_typography-color: #141617 !important;
+}
+.hmenu_wrapper_state_1 #hmenu_load_1 .hmenu_mega_sub h2 {
+    padding: 5px 19px 10px 10px !important;
+    margin-bottom: 20px !important;
+}
+p {
+	text-align: left !important;
+}
+#lt_3p_3825 {
+   display: none !important;
+}
+#hmenu_load_1 .hmenu_list_content {
+    padding-bottom: 10px !important;
+ }
+.icon_font_mobile_icon_e90b {
+	margin-top: 10px !important;
+}
+
+.fusion-page-title-bar-center .fusion-page-title-captions {
+	margin-top: -40px !important;
+}
+
+.fusion-page-title-wrapper h3 {
+	font-size: 24px !important;
+	margin-top: 10px !important;
+}
+
+.BuyCloFooter {
+	background: linear-gradient(320rad, #01abff, #0c0a18);
+    height: 2px;
+    width: 167.688px;
+    margin-top: -23px;
+    margin-bottom: 22px;
+}
+
+.fusion-footer-widget-column .custom-html-widget a {
+    transition: all ease .3s;
+}
+  
+.fusion-footer-widget-column .custom-html-widget a:hover {
+    filter: invert(0.3);
+    transition: all ease .3s;
+}
+
+#custom_html-6 {
+	background: none;
+}
+
+#custom_html .widget-title {
+	color: white !important;
+}
+
+.Blueprint {
+	margin-left:120px !important;
+}
+  
+.Blueprint span {
+	font-weight:bold;
+  	transition: all ease .15s;
+}
+
+
+.Blueprint span:hover {
+	color: #95d7ed;
+	transition: all ease .15s;
+}
+
+.Blueprint a div {
+	border: none !important;
+}
+
+html:not(.avada-has-site-width-percent) .fusion-page-title-bar {
+	padding-top: 0;
+}
+
+#hmenu_load_1 .hmenu_navigation_holder ul.hmenu_underline_hover > li.hmenu_active_nav > a > .hmenu_wrap{
+	border-bottom: none !important;
+}
+
+.mgt-promo-block-wrapper.mgt-promo-block-wrapper-round-edges-medium {
+	transition: all ease .3s;
+}
+
+.vc_column-inner h6{text-align: center;}
+
+.fusion-page-title-bar {
+	--page_title_mobile_height: 500px !important;
+}
+
+.titles-conteners h3 {
+	  display: inline;
+    color: #3f3f3f !important;
+    margin-left: 25px;
+    font-size: 30px !important;
+    line-height: 50px !important;
+}
+
+.titles-conteners p {
+	  display: inline;
+}
+
+.vc_col-sm-9 .vc_column-inner {
+	padding-top: 15px !important
+}
+	.avada-page-titlebar-wrapper {
+		height: 430px;
+	}
+	.fusion-page-title-wrapper h1 {
+		margin-top: -25px;
+	}	
+.fusion-page-title-wrapper h3 {
+	font-size: 24px !important;
+	margin-top: 15px !important;
+}
+
+.fusion-copyright-notice img {
+	width: 150px;
+   margin-top: 3.3px;
+   margin-right: 11px;
+}
+
+.fusion-copyright-notice p {
+	display: inline;
+	font-size: 13px;
+}
+
+.X-logo-footer {
+	width: 45px;
+  border-radius: 77px;
+  height: 43px;
+}
+
+.fusion-footer-widget-area a {
+	font-size: 15px;
+}
+    
+.fusion-footer-widget-area {
+	padding-bottom: 40px !important;
+	padding-top: 55px !important;
+}
+  
+@media only screen and (max-width: 1350px) {
+  #hmenu_load_1 .hmenu_navigation_holder > ul li a .hmenu_nav_uni_9 span { 
+	margin:0;
+	padding-left: 20px !important;
+}
+}
+
+@media only screen and (max-width: 1225px) {
+     .Blueprint {
+        margin-left: 0 !important;
+     }
+}
+
+
+@media only screen and (max-width: 1250px) and (min-width: 1225px) {
+     #hmenu_load_1 .hmenu_navigation_holder {
+          margin-top: 0 !important;
+          border: none !important;
+     }
+}
+
+@media only screen and (max-width: 925px) {
+	.X-logo-footer {
+     height: 37px;
+	}
+	.wpb_wrapper .vc_custom_1697624643485 {
+		margin-bottom: 36px !important;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.X-logo-footer {
+     height: 43px;
+	}
+	.fusion-footer-widget-area {
+		padding-bottom: 20px !important;
+	}
+      .vc_general.vc_cta3.vc_cta3-style-classic {
+		padding-bottom: 90px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.logo_main {
+		margin-top: 10px !important;
+	}
+	.titles-conteners h3 {
+	  	font-size: 23px;
+		margin-left: 15px;
+	}
+	.trustedMechanismMetrics .vc_column-inner {
+		padding-top: 0 !important;
+	}
+}
+  
+   
+/* Scroll Bar */
+HTML {
+	cursor: grab;
+}
+
+body {
+	cursor: default;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+	  background: transparent;
+	 	cursor: pointer !important;
+}
+::-webkit-scrollbar-thumb {
+    transition: background ease .5s;
+		background: darkgray; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: grab !important;
+}
+
+::-webkit-scrollbar-thumb:active {
+		background: rgba(169, 169, 169, .5); 
+}</style><style class='wp-fonts-local' type='text/css'>
+@font-face{font-family:lacupra;font-style:normal;font-weight:400;font-display:fallback;src:url('https://uglyearl.com/wp-content/uploads/sites/3/useanyfont/723Lacupra.woff2') format('woff2');}
+</style>
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			main {
+	margin-top: 110px !important;
+}		</style>
+				<script type="text/javascript">
+			var doc = document.documentElement;
+			doc.setAttribute( 'data-useragent', navigator.userAgent );
+		</script>
+		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1683713348476{margin-top: 140px !important;}.vc_custom_1693858399140{margin-top: 0px !important;}.vc_custom_1693858410857{margin-top: 0px !important;}.vc_custom_1693858378572{margin-top: 0px !important;}.vc_custom_1693858365529{margin-top: 0px !important;}.vc_custom_1693858352644{margin-top: 0px !important;}.vc_custom_1693858321486{margin-top: 0px !important;}.vc_custom_1693858280750{margin-top: 0px !important;}.vc_custom_1693858263951{margin-top: 0px !important;}.vc_custom_1693858231355{margin-top: 0px !important;}.vc_custom_1693858216412{margin-top: 0px !important;}.vc_custom_1693858168606{margin-top: 40px !important;}.vc_custom_1683713415296{margin-top: 80px !important;}.vc_custom_1684837416404{margin-top: 65px !important;}.vc_custom_1684837403099{padding-bottom: 80px !important;}.vc_custom_1693858146354{margin-bottom: -20px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRT59NEGBC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JRT59NEGBC');
+</script>
+
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4713469,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+
+<!-- Histats.com  END  -->
+	</head>
+
+<body class="wp-singular post-template-default single single-post postid-11984 single-format-standard wp-theme-Avada wp-child-theme-Avada-Child-Theme fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-yes avada-image-rollover-no wpb-js-composer js-comp-ver-7.9 vc_responsive fusion-body ltr no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow- layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-classic fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-clean fusion-main-menu-search-overlay fusion-avatar-circle avada-dropdown-styles avada-blog-layout-medium avada-blog-archive-layout-medium avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-pagetitle-bg-parallax avada-has-mobile-menu-search avada-has-main-nav-search-icon avada-has-breadcrumb-mobile-hidden avada-has-titlebar-bar_and_content avada-header-border-color-full-transparent avada-has-pagination-width_height avada-flyout-menu-direction-fade avada-ec-views-v1" data-awb-post-id="11984">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="boxed-wrapper">
+		<div class="fusion-sides-frame"></div>
+		<div id="wrapper" class="fusion-wrapper">
+			<div id="home" style="position:relative;top:-1px;"></div>
+							 
+				<link rel="stylesheet" property="stylesheet" id="hmenu-hero_custom_icons_set_december" href="https://callisto.network/wp-content/plugins/hmenu/_fonts/hero_custom_icons_set_december.css" type="text/css" media="all"><link rel="stylesheet" property="stylesheet" id="hmenu-hero_custom_icons_set_asdgb" href="https://callisto.network/wp-content/plugins/hmenu/_fonts/hero_custom_icons_set_asdgb.css" type="text/css" media="all"><link rel="stylesheet" property="stylesheet" id="hmenu-1-general-css" href="https://callisto.network/wp-content/plugins/hmenu/_frontend_files/_menu_1/_css/hero_menu_styles.css" type="text/css" media="all"><link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet" type="text/css"><div class="hmenu_wrapper_state_1"><div id="hmenu_load_1" style="display:none" class="hmenu_load_menu hmenu_unique_menu_1" data-menu-id="1"> <!-- BEGIN: MAIN --> <div id="hmenu_holder_1" class="hmenu_main_holder hmenu_main_bg_color" > <!-- BEGIN: INNER --> <div class="hmenu_inner_holder"> <div class="menu_responsive_label">Menu</div> <!-- BEGIN: LEFT --> <div class="hmenu_left"> <!-- BEGIN: LOGO --> <div class="hmenu_logo"> <a href="https://callisto.network" target="_self"> <img class="logo_main" alt="Callisto Network" src="https://callisto.network/wp-content/uploads/2022/10/Callisto-Logo.png"> </a> </div> <div class="hmenu_grp_devider"></div> <!-- END: LOGO --> </div> <!-- END: LEFT --> <!-- BEGIN: CENTER --> <div class="hmenu_center"> </div> <!-- END: CENTER --> <!-- BEGIN: RIGHT --> <div class="hmenu_right"> <!-- BEGIN: NAV --> <div class="hmenu_navigation_holder"> <ul class="hmenu_navigation_root hmenu_hover_color hmenu_underline_hover"><li class="hmenu_mega_li "><a title=""><div class="hmenu_wrap hmenu_nav_uni_7 hmenu_mega_menu icon_hero_default_thin_e600"><span>Proof Of Stake</span></div></a><div class="hmenu_item_devider"></div> <!-- BEGIN: MEGA --> <div class="hmenu_submenu hmenu_mega_sub hmenu_drop_devider" > <!-- MEGA SUB --> <div class="hmenu_mega_inner"> <!-- BEGIN: COL --> <div class="hmenu_col_12 " data-type="list" data-id="6"> <div class="hmenu_inner_col hmenu_col_load"> <a href="https://fushuma.com/callisto-network-evolution/" target="_self" id="hmenu_list_item_uni_59" class="hmenu_list_item hmenu_item_0 icon_hero_default_thin_e631" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Callisto Evolution</h3><span>Evolving Together for Decentralization, Governance, and Efficiency!</span></div></a><a href="https://fushuma.com/fushuma-on-chain-democracy/" target="_self" id="hmenu_list_item_uni_72" class="hmenu_list_item hmenu_item_1 icon_hero_default_solid_e607" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Fushuma On-chain Democracy</h3><span>Your Voice, Our Future: Callisto's Evolution to Democracy.</span></div></a><a href="https://fushuma.com/blueprint-for-a-decentralized-blockchain/" target="_self" id="hmenu_list_item_uni_74" class="hmenu_list_item hmenu_item_2 icon_hero_default_solid_e62d" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Philosophy of Decentralization - Blueprint</h3><span>Commited to blockchain's core values and advocating true decentralization against financial challenges.</span></div></a><a href="https://fushuma.com/fuma-tokenomics/" target="_self" id="hmenu_list_item_uni_69" class="hmenu_list_item hmenu_item_3 icon_hero_default_thin_e64c" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Fushuma Tokenomics</h3><span>Discover how we're building an inclusive, decentralized ecosystem with the native $FUMA token.</span></div></a> </div> </div> <!-- END: COL --> </div> </div> <!-- END: MEGA --> </li><li class="hmenu_mega_li "><a title=""><div class="hmenu_wrap hmenu_nav_uni_8 hmenu_mega_menu icon_hero_default_thin_e600"><span>Proof Of Work</span></div></a><div class="hmenu_item_devider"></div> <!-- BEGIN: MEGA --> <div class="hmenu_submenu hmenu_mega_sub hmenu_drop_devider" > <!-- MEGA SUB --> <div class="hmenu_mega_inner"> <!-- BEGIN: COL --> <div class="hmenu_col_4 " data-type="list" data-id="7"> <div class="hmenu_inner_col hmenu_col_load"> <a href="https://callisto.network/cold-staking/" target="_self" id="hmenu_list_item_uni_31" class="hmenu_list_item hmenu_item_0 icon_hero_custom_icons_set_asdgb_e910" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Cold Staking</h3><span>Earn CLO coins passively with optimized staking and enhanced security.</span></div></a><a href="https://callisto.network/erc-223/" target="_self" id="hmenu_list_item_uni_49" class="hmenu_list_item hmenu_item_1 icon_hero_default_thin_e65a" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>ERC-223 Token Standard</h3><span>Advanced protocol addressing ERC-20 issues for enhanced security and optimized transfers.</span></div></a><a href="https://callisto.network/callisto-nft/" target="_self" id="hmenu_list_item_uni_50" class="hmenu_list_item hmenu_item_2 icon_hero_custom_icons_set_asdgb_e904" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Callisto NFT Standard</h3><span>Redefining NFTs with built-in trades, royalties, and standardized properties.</span></div></a><a href="https://callisto.network/callisto-network-mining/" target="_self" id="hmenu_list_item_uni_62" class="hmenu_list_item hmenu_item_3 icon_hero_custom_icons_set_asdgb_e900" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Callisto Network Mining</h3><span>Essential insights and resources for Callisto Network's Mining.</span></div></a> </div> </div> <!-- END: COL --> </div> </div> <!-- END: MEGA --> </li><li class="hmenu_mega_li "><a title=""><div class="hmenu_wrap hmenu_nav_uni_2 hmenu_mega_menu icon_hero_default_thin_e600"><span>Ecosystem</span></div></a><div class="hmenu_item_devider"></div> <!-- BEGIN: MEGA --> <div class="hmenu_submenu hmenu_mega_sub hmenu_drop_devider" > <!-- MEGA SUB --> <div class="hmenu_mega_inner"> <!-- BEGIN: COL --> <div class="hmenu_col_4 " data-type="list" data-id="2"> <div class="hmenu_inner_col hmenu_col_load"> <a href="https://explorer.callisto.network/" target="_blank" id="hmenu_list_item_uni_5" class="hmenu_list_item hmenu_item_0 icon_hero_default_thin_e654" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Network Explorer</h3><span>Browse Callisto Network's activities and transactions.</span></div></a><a href="https://callisto.network/dapps/" target="_self" id="hmenu_list_item_uni_43" class="hmenu_list_item hmenu_item_1 icon_hero_default_thin_e624" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>DApps</h3><span>Explore decentralized applications on Callisto Network.</span></div></a><a href="https://callisto.network/wallets/" target="_self" id="hmenu_list_item_uni_44" class="hmenu_list_item hmenu_item_2 icon_hero_default_thin_e661" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Wallets</h3><span>Manage assets using MetaMask, the official web wallet, and more.</span></div></a> </div> </div> <!-- END: COL --> </div> </div> <!-- END: MEGA --> </li><li class="hmenu_mega_li "><a title=""><div class="hmenu_wrap hmenu_nav_uni_3 hmenu_mega_menu icon_hero_default_thin_e600"><span>Community</span></div></a><div class="hmenu_item_devider"></div> <!-- BEGIN: MEGA --> <div class="hmenu_submenu hmenu_mega_sub hmenu_drop_devider" > <!-- MEGA SUB --> <div class="hmenu_mega_inner"> <!-- BEGIN: COL --> <div class="hmenu_col_12 " data-type="list" data-id="5"> <div class="hmenu_inner_col hmenu_col_load"> <a href="https://callisto.network/callistonians-nfts/" target="_self" id="hmenu_list_item_uni_54" class="hmenu_list_item hmenu_item_0 icon_hero_default_thin_e618" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Callistonians NFT Collection</h3><span>Step into the Callistonians universe – a unique NFT series by Krudo on the Callisto Network</span></div></a><a href="https://callisto.network/network-essentials/" target="_self" id="hmenu_list_item_uni_58" class="hmenu_list_item hmenu_item_1 icon_hero_default_thin_e650" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Callisto Network Essentials</h3><span>Contribute to the Callisto Network's reliability by setting up a node or a blockchain explorer. Start contributing today!</span></div></a> </div> </div> <!-- END: COL --> </div> </div> <!-- END: MEGA --> </li><li class="hmenu_mega_li "><a title=""><div class="hmenu_wrap hmenu_nav_uni_1 hmenu_mega_menu icon_hero_default_thin_e600"><span>Development</span></div></a><div class="hmenu_item_devider"></div> <!-- BEGIN: MEGA --> <div class="hmenu_submenu hmenu_mega_sub hmenu_drop_devider" > <!-- MEGA SUB --> <div class="hmenu_mega_inner"> <!-- BEGIN: COL --> <div class="hmenu_col_12 " data-type="list" data-id="1"> <div class="hmenu_inner_col hmenu_col_load"> <a href="https://trello.com/b/wuCCqEM8/callisto-enterprises-contribution-tracker" target="_self" id="hmenu_list_item_uni_70" class="hmenu_list_item hmenu_item_0 icon_hero_custom_icons_set_asdgb_e903" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Callisto Progress Tracker</h3><span>A transparent view on our progress.</span></div></a><a href="/devs" target="_self" id="hmenu_list_item_uni_2" class="hmenu_list_item hmenu_item_1 icon_hero_default_thin_e651" style="color:#CCC; font-size:30px"><div class="hmenu_list_content"><h3>Testnet Tools</h3><span>Access the CLO Testnet and its resources.</span></div></a> </div> </div> <!-- END: COL --> </div> </div> <!-- END: MEGA --> </li><li class="Blueprint"><a href="/blog/" target="_self" title="" ><div class="hmenu_no_sub hmenu_wrap hmenu_nav_uni_9"><span>Blog</span></div></a><div class="hmenu_item_devider"></div></li></ul> </div> <div class="hmenu_grp_devider"></div> <!-- END: NAV --> <!-- BEGIN: TOGGLE --> <div class="hmenu_toggle_holder hmenu_mobile_show" data-toggle="close"> <div class="hmenu_grp_devider"></div> <ul class="hmenu_hover_color"> <li><a><div class="hmenu_wrap icon_font_mobile_icon_e90b"></div></a></li> </ul> </div> <!-- END: TOGGLE --> </div> <!-- END: RIGHT --> </div> <!-- END: INNER --> <!-- BEGIN: SEARCH FULL INPUT --> <!-- END: SEARCH FULL INPUT --> </div> <!-- END: MAIN --> </div></div>
+				
+						<div id="sliders-container" class="fusion-slider-visibility">
+					</div>
+				
+				
+			
+			<section class="avada-page-titlebar-wrapper" aria-label="Page Title Bar">
+	<div class="fusion-page-title-bar fusion-page-title-bar-breadcrumbs fusion-page-title-bar-center">
+		<div class="fusion-page-title-row">
+			<div class="fusion-page-title-wrapper">
+				<div class="fusion-page-title-captions">
+
+																							<h1 class="entry-title">TraderDAOai Contracts Security Audit Report</h1>
+
+											
+																
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+						<main id="main" class="clearfix ">
+				<div class="fusion-row" style="">
+
+<section id="content" style="width: 100%;">
+	
+					<article id="post-11984" class="post post-11984 type-post status-publish format-standard has-post-thumbnail hentry category-smart-contract-audits tag-security-audits">
+										<span class="entry-title" style="display: none;">TraderDAOai Contracts Security Audit Report</span>
+			
+														<div class="fusion-flexslider flexslider fusion-flexslider-loading post-slideshow fusion-post-slideshow">
+				<ul class="slides">
+																<li>
+																																<a href="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg" data-rel="iLightbox[gallery11984]" title="" data-title="TraderDAOai Contracts Security Audit Report" data-caption="" aria-label="TraderDAOai Contracts Security Audit Report">
+										<span class="screen-reader-text">View Larger Image</span>
+										<img width="2560" height="1342" src="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg" class="attachment-full size-full wp-post-image" alt="TraderDAOai Contracts Security Audit Report" decoding="async" fetchpriority="high" srcset="https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-200x105.jpg 200w, https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-400x210.jpg 400w, https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-600x315.jpg 600w, https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-800x419.jpg 800w, https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-1200x629.jpg 1200w, https://callisto.network/wp-content/uploads/2023/05/TraderDAOai-Contracts-Security-Audit-Report-scaled.jpg 2560w" sizes="(max-width: 640px) 100vw, 2560px" />									</a>
+																					</li>
+
+																																																																																																															</ul>
+			</div>
+						
+						<div class="post-content">
+				<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element vc_custom_1684837416404" >
+		<div class="wpb_wrapper">
+			<h2 class="fusion-responsive-typography-calculated" style="text-align: center;" data-fontsize="39" data-lineheight="46.8px">TraderDAOai v3 Security Audit Report</h2>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h2 class="fusion-responsive-typography-calculated" style="text-align: center; font-size: 35px; font-weight: 500;" data-fontsize="25" data-lineheight="30px">Are Your Funds Safe?</h2>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element vc_custom_1684837403099" >
+		<div class="wpb_wrapper">
+			<p class="fusion-responsive-typography-calculated" style="text-align: center;" data-fontsize="20" data-lineheight="24px">Our expert team at Callisto Network has conducted an in-depth security audit of the TraderDAOai v3 smart contract. This audit aims to ensure the security of your funds by identifying and assessing any potential vulnerabilities. Here, we present our findings:</p>
+
+		</div>
+	</div>
+<div data-total='0'>
+
+        <div class='widget_container'>
+          <div class='widget_top'>
+            <div class='widget_topLeft'>
+              <div class='wt_bigNb'>0</div>
+              <div class='wt_bigTxt'>Total Finding(s)</div>
+            </div>
+            <div class='widget_topRight'>
+              <div class='wt_row row_mgb'>
+                <div class='wt_square red_hight'></div>
+                <div class='wt_riskTxt'>0 - Hight severity issue(s)</div>
+              </div>
+              <div class='wt_row row_mgb'>
+                <div class='wt_square red_medium'></div>
+                <div class='wt_riskTxt'>0 - Medium severity issue(s)</div>
+              </div>
+              <div class='wt_row'>
+                <div class='wt_square red_low'></div>
+                <div class='wt_riskTxt'>0 - Low severity issue(s)</div>
+              </div>
+            </div>
+          </div>
+          <div class='widgetFooter'>
+            <div class='widgetLogo'>
+              <img src='/wp-content/uploads/2023/05/logo.png' alt='Callisto'>
+            </div>
+            <div class='widget_bottom'>
+              <div class='wt_line'>
+                <div class='wt_cercle'></div>
+                <div class='wt_riskNote'>19 note(s)</div>
+              </div>
+              <div class='wt_line'>
+                <div class='wt_cercle'></div>
+                <div class='wt_riskOwner'>0 owner privilege(s)</div>
+              </div>
+            </div>
+          </div>  
+        </div>     
+      </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1683713348476"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h2 class="fusion-responsive-typography-calculated" data-fontsize="36" data-lineheight="43.2px">Executive Summary</h2>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>This report presents the results of the security audit conducted by the <a href="https://audits.callisto.network/" target="_blank" rel="noopener"><strong>Callisto Network Security Department</strong></a> on the <a href="https://traderdao.ai/" target="_blank" rel="noopener"><strong>TraderDAOai v3</strong></a> smart contract in May 2023. It analyzes the contract&#8217;s security in-depth and highlights any identified vulnerabilities.</p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-1/5"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="aio-icon-component    style_2"><div id="Info-box-wrap-6159" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:26px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-1.png"/>
+</div></div></div></div><div class="aio-icon-header" ><a class="aio-icon-box-link" href="https://traderdao.ai/" target="_blank" rel="noopener" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-6159 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Website</h3></a></div> <!-- header --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div><div class="wpb_column vc_column_container vc_col-sm-1/5"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="aio-icon-component    style_2"><div id="Info-box-wrap-6410" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:26px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-2.png"/>
+</div></div></div></div><div class="aio-icon-header" ><a class="aio-icon-box-link" href="https://medium.com/@traderdao-ai" target="_blank" rel="noopener" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-6410 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Blog</h3></a></div> <!-- header --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div><div class="wpb_column vc_column_container vc_col-sm-1/5"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="aio-icon-component    style_2"><div id="Info-box-wrap-9938" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:25px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-3.png"/>
+</div></div></div></div><div class="aio-icon-header" ><a class="aio-icon-box-link" href="https://traderdao.gitbook.io/traderdao/traderdao/litepaper-english" target="_blank" rel="noopener" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-9938 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Whitepaper</h3></a></div> <!-- header --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858399140"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="36" data-lineheight="43.2px">1. Scope of the Audit</h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Blockchain: Arbitrum.</p>
+<p>The audit focused on the following TraderDAO v3 contracts:</p>
+<ul>
+<li>
+<p dir="auto">Commit: 9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768</p>
+<ul dir="auto">
+<li><strong><a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Ambassador_Redeem_Contract.sol" target="_blank" rel="noopener">Ambassador_Redeem_Contract.sol</a></strong></li>
+<li><strong><a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Liquidity_Wallet.sol" target="_blank" rel="noopener">Liquidity_Wallet.sol</a></strong></li>
+<li><strong><a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/POT_Token.sol" target="_blank" rel="noopener">POT_Token.sol</a></strong></li>
+<li><strong><a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Proof_Of_Trade_Arbi_One.sol" target="_blank" rel="noopener">Proof_Of_Trade_Arbi_One.sol</a></strong></li>
+</ul>
+</li>
+</ul>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858410857"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="36" data-lineheight="43.2px">2. Audit Findings</h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Our audit reported a total of 0 finding(s), categorized as follows:</p>
+<ul>
+<li>0 high-severity issue(s).</li>
+<li>0 medium severity issue(s).</li>
+<li>0 low-severity issue(s).</li>
+</ul>
+<p>In addition to these findings, our audit identified <strong>19 additional points</strong>, detailed in the following sections:</p>
+<ul>
+<li><strong>3 note(s).</strong></li>
+<li><strong>16 owner privilege(s).</strong></li>
+</ul>
+<h5><strong>No critical security issues were found.</strong></h5>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858378572"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.1 Owner privileges of <a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Ambassador_Redeem_Contract.sol" target="_blank" rel="noopener">Ambassador_Redeem_Contract</a></h3>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-5662" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-5662 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-5662 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Owner Privileges.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-6638" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-6638 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-6638 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ol dir="auto">
+<li style="margin-top: 15px;">Contract <code>Ambassador_Redeem_Contract</code> contract inherits basic access control properties from Openzeppelin&#8217;s <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol" target="_blank" rel="noopener"><strong>Ownable</strong></a> contract, where the contract&#8217;s ownership can be transferred or renounced. Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner.</li>
+<li style="margin-top: 15px;">Function <code>SetPause()</code> allows the owner to pause or resume the contracts functionalities available to the users. Users would be unable to redeem USDT tokes for the signature signed by the <code>signerAddress</code> if the contract is paused.</li>
+<li style="margin-top: 15px;">Function <code>SetSigner()</code> allows the owner to update the <code>signerAddress</code>. All previous un-redeemed signatures will be invalid if the <code>signerAddress</code> is updated. New signatures must be generated for previous unclaimed signatures.</li>
+<li style="margin-top: 15px;">Function <code>Save()</code> allows the owner to withdraw ERC-20 tokens from the contract.</li>
+</ol>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858365529"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.2 Owner privileges of <a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Liquidity_Wallet.sol" target="_blank" rel="noopener">Liquidity_Wallet</a></h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h4 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.2.1 Functions SetDecimal() and SetRate() allow gov address to modify POT&lt;&gt;USDT conversion rate</h4>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-1888" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-1888 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-1888 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Owner Privileges.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-1447" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-1447 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-1447 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<p dir="auto">The functions <code>SetDecimal()</code> and <code>SetRate()</code> allow the <code>gov</code> address to modify POT&lt;&gt;USDT conversion parameters. With current values of <code>Rate = 100</code> and <code>Decimals = 10**18</code>, the 1 POT = 0.0001 USDT</p>
+<p dir="auto">Users should know that the <code>gov</code> address can set any conversion rate without restriction.</p>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-7752" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/star-svgrepo-com.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-7752 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Code Snippet:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-7752 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ul>
+<li><a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Liquidity_Wallet.sol#L56-L62" target="_blank" rel="noopener">https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Liquidity_Wallet.sol#L56-L62</a>.</li>
+</ul>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component -->
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h4 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.2.2 Owner Privileges</h4>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-4279" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-4279 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-4279 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Owner Privileges.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-8985" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-8985 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-8985 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ol dir="auto">
+<li style="margin-top: 15px;">Contract <code>Liquidity_Wallet</code> contract inherits basic access control properties from Openzeppelin&#8217;s <strong><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol" target="_blank" rel="noopener">Ownable</a> </strong>contract, where the contract&#8217;s ownership can be transferred or renounced. Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner.</li>
+<li style="margin-top: 15px;">Function <code>SetPause()</code> allows the owner to pause or resume the contracts functionalities available to the users. Users cannot trade POT tokens for USDT tokens if the contract is paused.</li>
+<li style="margin-top: 15px;">Function <code>SetGov()</code> allows the owner to update the <code>gov</code> address.</li>
+<li style="margin-top: 15px;">Function <code>Save()</code> allows the owner to withdraw ERC-20 tokens from the contract.</li>
+<li style="margin-top: 15px;">Function <code>SetFee()</code> allow the <code>gov</code> address to set a fee for the user&#8217;s claim amount.</li>
+</ol>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858352644"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.3 <a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/POT_Token.sol" target="_blank" rel="noopener">POT_Token.sol</a></h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h4 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.3.1 Owner Privileges</h4>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-7862" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-7862 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-7862 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Notes.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-2725" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-2725 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-2725 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ol dir="auto">
+<li style="margin-top: 15px;">Contract <code>POT_Token</code> contract inherits basic access control properties from Openzeppelin&#8217;s <strong><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol" target="_blank" rel="noopener">Ownable</a> </strong>contract, where the contract&#8217;s ownership can be transferred or renounced. Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner.</li>
+<li style="margin-top: 15px;">Function <code>ownerMint</code> allows the owner to mint arbitrary tokens.</li>
+<li style="margin-top: 15px;">Function <code>SetSigner()</code> allows the owner to update the <code>signerAddress</code>. All previous un-redeemed signatures will be invalid if the <code>signerAddress</code> is updated. New signatures must be generated for previous unclaimed signatures.</li>
+</ol>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858321486"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.4 <a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Proof_Of_Trade_Arbi_One.sol" target="_blank" rel="noopener">Proof_Of_Trade_Arbi_One</a></h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h4 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.4.1 Users Claim Reward with USDT tokens</h4>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-7208" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-7208 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-7208 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Notes.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-8487" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-8487 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-8487 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Based on the <strong><a href="https://traderdao.gitbook.io/traderdao/start-here/proof-of-trade/introduction-to-proof-of-trade-pot-interface#:~:text=Available%20to%20Claim" target="_blank" rel="nofollow noopener">docs</a></strong>, the Proof_of_Trade_Arbi_One contract should rewards users in POT tokens, but the contract&#8217;s implementation rewards users in USDT tokens.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-5282" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/star-svgrepo-com.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-5282 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Code Snippet:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-5282 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ul>
+<li><a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Proof_Of_Trade_Arbi_One.sol#L68" target="_blank" rel="noopener">https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Proof_Of_Trade_Arbi_One.sol#L68</a>.</li>
+</ul>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-5022" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/star-svgrepo-com.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-5022 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Recommendation:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-5022 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<p dir="auto">Consider reviewing the implementation or updating documentation based on the business requirements.</p>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component -->
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h4 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.4.2 Owner Privileges</h4>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-8486" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-8486 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-8486 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Owner Privileges.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-4443" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-4443 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-4443 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ol dir="auto">
+<li style="margin-top: 15px;">The function <code>SetSigner()</code> allows the owner to update the <code>signerAddress</code>. All previous un-redeemed signatures will be invalid if the <code>signerAddress</code> is updated. New signatures must be generated for previous unclaimed signatures.</li>
+<li style="margin-top: 15px;">Function <code>SetPause()</code> allows the owner to pause or resume the contract&#8217;s functionalities available to the users. Users cannot deposit USDT tokens or claim rewards if the contract is paused.</li>
+<li style="margin-top: 15px;">Function <code>Save()</code> allows the owner to withdraw ERC-20 tokens from the contract.</li>
+</ol>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component -->
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h4 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.4.3 Deposit with Arbitrary Parameters</h4>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-1801" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-1801 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-1801 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Notes.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-6357" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-6357 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-6357 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<p dir="auto">The function <code>deposit()</code> can be called by any user with any parameters. It allows an attacker to deposit with <code>id_</code> that already exists.</p>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-5268" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/star-svgrepo-com.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-5268 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Code Snippet:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-5268 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ul>
+<li><a href="https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Proof_Of_Trade_Arbi_One.sol#L58" target="_blank" rel="noopener">https://github.com/TraderDAOai/contracts/blob/9d4f1b1993ed76de25d7f3555a8b4eebdb8ad768/Proof_Of_Trade_Arbi_One.sol#L58</a>.</li>
+</ul>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858280750"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="30" data-lineheight="36px">2.5 Follow Good Coding Practice</h3>
+
+		</div>
+	</div>
+<div class="aio-icon-component   mos_flex style_1"><div id="Info-box-wrap-1242" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-6.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-1242 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Severity:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-1242 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Notes.</div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --><div class="aio-icon-component    style_1"><div id="Info-box-wrap-1286" class="aio-icon-box default-icon" style=""  ><div class="aio-icon-default"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:20px;display:inline-block;" data-animation="fadeIn" data-animation-delay="03">
+	<img decoding="async" class="img-icon" alt="null" src="https://callisto.network/wp-content/uploads/2023/04/Mask-Group-7.png"/>
+</div></div></div></div><div class="aio-icon-header" ><h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-1286 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Description:</h3></div> <!-- header --><div class="aio-icon-description ult-responsive"  data-ultimate-target='#Info-box-wrap-1286 .aio-icon-description'  data-responsive-json-new='{"font-size":"","line-height":""}'  style=""></p>
+<ol dir="auto">
+<li><strong>Missing docstrings</strong></li>
+</ol>
+<p dir="auto">The contracts in the code base lack documentation. This hinders reviewers’ understanding of the code’s intention, which is fundamental to correctly assess not only security but also correctness. Additionally, docstrings improve readability and ease maintenance. They should explicitly explain the purpose or intention of the functions, the scenarios under which they can fail, the roles allowed to call them, the values returned, and the events emitted.</p>
+<p dir="auto">Consider thoroughly documenting all functions (and their parameters) that are part of the contracts’ public API. Functions implementing sensitive functionality, even if not public, should also be documented. Consider following the Ethereum Natural Specification Format (NatSpec) when writing docstrings.</p>
+<ol dir="auto" start="2">
+<li><strong>Missing test suite</strong></li>
+</ol>
+<p dir="auto">The contract is missing a test suite to validate and verify the behavior of the contract functionalities. Add tests are recommended to ensure that the contract functions and behaves as expected.</p>
+<ol dir="auto" start="3">
+<li><strong>Missing zero address checks</strong></li>
+</ol>
+<p dir="auto">In several places in the code, addresses are passed as parameters to functions. In many of these instances, the functions do not validate that the passed address is not the address 0. While this does not currently pose a security risk, consider adding checks for the passed addresses being nonzero to prevent unexpected behavior where required, or documenting the fact that a zero address is indeed a valid parameter.</p>
+<ol dir="auto" start="4">
+<li><strong>Insufficient event logging</strong></li>
+</ol>
+<p dir="auto">Multiple functions with owner privileges in the contracts do not emit an event. Events are useful to inform external dapps or users that an important state was modified on the contract.</p>
+<p></div> <!-- description --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858263951"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="36" data-lineheight="43.2px">3. Security Practices</h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_raw_code wpb_raw_html wpb_content_element" >
+		<div class="wpb_wrapper">
+			<div class="mos_checkList">
+<label class=""> <input checked="checked" type="checkbox" disabled /> <strong><span class="checkmark"> Open-Source Contract:</span></strong> The contract's source code should be accessible for public scrutiny.</label>
+        </div>
+<div class="mos_checkList">
+<label class=""> <input type="checkbox" disabled /> <strong><span class="checkmark">Bug Bounty Program:</span></strong> Initiating a bug bounty program post-audit for comprehensive security validation is recommended.</label>
+        </div>
+<div class="mos_checkList">
+<label class=""> <input type="checkbox" disabled /> <strong><span class="checkmark"> <span class="checkmark"> Public
+                testing:</span></span></strong> The contract should undergo public testing to detect unforeseen bugs or issues.</label>
+</div>
+<div class="mos_checkList">
+<label class=""><input type="checkbox" disabled /> <strong>Automated Anomaly Detection System: <span style="color:orange;">Not Implemented.</span></strong> Establishing a simple anomaly detection algorithm to monitor and respond to unusual activities is advised. For instance, the contract must temporarily suspend deposits if a large withdrawal is detected until approval by the contract owner or community.</label>
+</div>
+<div class="mos_checkList">
+<label class=""><input type="checkbox" disabled /> <strong><span class="checkmark"> Multi-signature Owner Account:</span></strong> A multi-signature setup for owner accounts is recommended for additional security layers.</label>
+        </div>
+        <div class="mos_checkList">
+<label class=""> <input checked="checked" type="checkbox" disabled /> <strong>Standard ERC20-Related Issues:</span> <span style="color:green;"> Implemented.</span></strong> It is known that a smart contract, even if not designed to receive or hold tokens, can still inadvertently receive ERC20-token deposits, without the ability to reject them. Thus, it's recommended to incorporate a function that allows for the extraction of any number of such unintended tokens from the contract.</label>
+</div>
+<div class="mos_checkList">
+<label class=""> <input type="checkbox" disabled /> <strong>Crosschain Address Collisions:</strong> Transactions can be mistakenly sent to a contract's address on a different chain (ETH, ETC, CLO, etc..). To mitigate this, deploying a "mock contract" that allows token withdrawal or prevents fund deposits at the address is recommended. Please note native blockchain coin deposits can be rejected, but ERC20 token deposits cannot. The following source code can be used as a mock contract: <a
+        href="https://github.com/EthereumCommonwealth/GNT-emergency-extractor-contract/blob/master/extractor.sol"
+        target="_blank" rel="noopener"><b>extractor contract source code</b></a>. When deploying a new contract using <code>CREATE (0xf0)</code> opcode, the new contract's address follows this scheme <code>keccak256(rlp([sender, nonce]))</code>.
+    Thus, the same address used on the main chain should be used to deploy the mock contract, with the transaction <code>nonce</code> matching that on the original chain.
+    <em>For example, if your main contract (address 0x010101) was deployed in your 2021st transaction, you need to increase your nonce of address 0x010101 to 2020 on the chain where your mock contract will be deployed. Then, your 2021st transaction can deploy your mock contract, which will share the same address as your mainnet contract.</em></label><label class="container"></label>
+    </div>
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858231355"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="36" data-lineheight="43.2px">4. Conclusion</h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h5 dir="auto"><strong>The audited smart contract can be deployed. No security issues were found in the audited contracts.</strong></h5>
+<p dir="auto">Users should be aware of the complete centralization of <code>TraderDAO</code>, where the owner can withdraw any tokens from smart contacts without limitation. Users can claim USDT from <code>TraderDAO</code> only if the owner adds enough USDT to contracts. The owner can mint <code>POT</code> tokens without restriction.</p>
+<p dir="auto">Audited contracts don&#8217;t implement the functionality described in the <a href="https://traderdao.gitbook.io/traderdao/traderdao/litepaper-english" target="_blank" rel="nofollow noopener"><strong>Litepaper</strong></a>; therefore, it uses a centralized server-side for all <code>TraderDAO</code> logic.</p>
+<p dir="auto">It is recommended to adhere to the security practices described in pt. 4 of this report to ensure the contract&#8217;s operability and prevent any issues that are not directly related to the code of this smart contract.</p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858216412"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3 class="fusion-responsive-typography-calculated" data-fontsize="36" data-lineheight="43.2px">5. Previous Audit Reports</h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<ul>
+<li style="margin-top: 15px;"><a href="https://gist.github.com/yuriy77k/57b8d726be90e8ee4e74c1a4151a235d" target="_blank" rel="noopener">https://gist.github.com/yuriy77k/57b8d726be90e8ee4e74c1a4151a235d.</a></li>
+<li style="margin-top: 15px;"><a href="https://gist.github.com/yuriy77k/d26f3c9cffd06be95bce6933cf009c28" target="_blank" rel="noopener">https://gist.github.com/yuriy77k/d26f3c9cffd06be95bce6933cf009c28</a>.</li>
+</ul>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1693858168606"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey wpb_content_element  wpb_content_element" ><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h3>About Callisto Network</h3>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Founded by Dexaran,  co-founder of Ethereum Classic, Callisto Network is a blockchain platform that prioritizes security.<strong> We’ve conducted over 330 smart contract audits across platforms like Ethereum, Ethereum Classic, and EOS.</strong> In addition to our audits, we’ve developed the <strong><a href="https://callisto.network/erc-233/" target="_blank" rel="noopener">ERC 223 token standard</a></strong> and <strong><a href="https://callisto.network/callistonft/" target="_blank" rel="noopener">CallistoNFT standard</a></strong>, enhancements over existing standards that address flaws and offer new capabilities, further establishing us as industry leaders in crypto-security.</p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1683713415296"><div class="mos_JustFlex wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_single_image wpb_content_element vc_align_center   mos_auditImage">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="300" height="300" src="https://callisto.network/wp-content/uploads/2023/04/Security-300x300.png" class="vc_single_image-img attachment-medium" alt="" title="Security" srcset="https://callisto.network/wp-content/uploads/2023/04/Security-66x66.png 66w, https://callisto.network/wp-content/uploads/2023/04/Security-75x75.png 75w, https://callisto.network/wp-content/uploads/2023/04/Security-100x100.png 100w, https://callisto.network/wp-content/uploads/2023/04/Security-150x150.png 150w, https://callisto.network/wp-content/uploads/2023/04/Security-180x180.png 180w, https://callisto.network/wp-content/uploads/2023/04/Security-200x200.png 200w, https://callisto.network/wp-content/uploads/2023/04/Security-300x300.png 300w, https://callisto.network/wp-content/uploads/2023/04/Security-400x400.png 400w, https://callisto.network/wp-content/uploads/2023/04/Security-600x600.png 600w, https://callisto.network/wp-content/uploads/2023/04/Security-768x768.png 768w, https://callisto.network/wp-content/uploads/2023/04/Security.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+		</figure>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element vc_custom_1693858146354 mos_BTvertivle" >
+		<div class="wpb_wrapper">
+			<div class="mos_audit_bTitle"><span style="font-size: 48px;">Trust The Blockchain, </span><span style="color: #3798bf; font-size: 48px;">Audit Your Smart Contracts.</span></div>
+
+		</div>
+	</div>
+</div></div></div></div>
+</div><div role="form" class="wpcf7" id="wpcf7-f150-p150-o1" lang="en-US" dir="ltr"><div><div class="wpcf7-form"><div class="fit-the-fullspace"><div><div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div><form action="/traderdaoai-contracts-security-audit-report/#wpcf7-f150-p150-o1" method="post" class="wpcf7-form init" enctype="" autocomplete="autocomplete" novalidate="novalidate" data-status="init" locale="en_US"><div style="display: block;"><input type="hidden" name="_wpcf7" value="150" />
+<input type="hidden" name="_wpcf7_version" value="6.1.1" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f150-p150-o1" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7_fit-the-fullspace" value="" />
+<input type="hidden" name="_wpcf7_container_post" value="150" />
+</div><p><label> Your name<br />
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" value="" type="text" name="your-name" /></span> </label>
+</p>
+<p><label> Your email<br />
+<span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" autocomplete="email" aria-required="true" aria-invalid="false" value="" type="email" name="your-email" /></span> </label>
+</p>
+<p><label> Subject<br />
+<span class="wpcf7-form-control-wrap" data-name="your-subject"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-subject" /></span> </label>
+</p>
+<p><label> Your message (optional)<br />
+<span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
+</p>
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Submit" />
+</p><div class="fusion-alert alert custom alert-custom fusion-alert-center wpcf7-response-output awb-alert-native-link-color alert-dismissable awb-alert-close-boxed" style="--awb-border-size:1px;--awb-border-top-left-radius:0px;--awb-border-top-right-radius:0px;--awb-border-bottom-left-radius:0px;--awb-border-bottom-right-radius:0px;" role="alert"><div class="fusion-alert-content-wrapper"><span class="fusion-alert-content"></span></div><button type="button" class="close toggle-alert" data-dismiss="alert" aria-label="Close">×</button></div></form></div></div></div></div></div>							</div>
+
+												<div class="fusion-meta-info"><div class="fusion-meta-info-wrapper">By <span class="vcard"><span class="fn"><a href="https://callisto.network/author/tonton/" title="Posts by " rel="author"></a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2023-09-05T21:05:24+00:00</span><span></span><span class="fusion-inline-sep">|</span><a href="https://callisto.network/category/smart-contract-audits/" rel="category tag">Smart Contract Audits</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://callisto.network/traderdaoai-contracts-security-audit-report/#respond">0 Comments</a></span></div></div>													<div class="fusion-sharing-box fusion-theme-sharing-box fusion-single-sharing-box">
+		<h4>Share This Story, Choose Your Platform!</h4>
+		<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F&amp;t=TraderDAOai%20Contracts%20Security%20Audit%20Report" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="X" data-toggle="tooltip" title="X" href="https://x.com/intent/post?url=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F&amp;text=TraderDAOai%20Contracts%20Security%20Audit%20Report" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">X</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-reddit awb-icon-reddit" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Reddit" data-toggle="tooltip" title="Reddit" href="https://reddit.com/submit?url=https://callisto.network/traderdaoai-contracts-security-audit-report/&amp;title=TraderDAOai%20Contracts%20Security%20Audit%20Report" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Reddit</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-linkedin awb-icon-linkedin" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="LinkedIn" data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F&amp;title=TraderDAOai%20Contracts%20Security%20Audit%20Report&amp;summary=TraderDAOai%20v3%20Security%20Audit%20Report%20%0D%0AAre%20Your%20Funds%20Safe%3F%20%0D%0AOur%20expert%20team%20at%20Callisto%20Network%20has%20conducted%20an%20in-depth%20security%20audit%20of%20the%20TraderDAOai%20v3%20smart%20contract.%20This%20audit%20aims%20to%20ensure%20the%20security%20of%20your" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">LinkedIn</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-whatsapp awb-icon-whatsapp" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="WhatsApp" data-toggle="tooltip" title="WhatsApp" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">WhatsApp</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-telegram awb-icon-telegram" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Telegram" data-toggle="tooltip" title="Telegram" href="https://t.me/share/url?url=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Telegram</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-tumblr awb-icon-tumblr" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Tumblr" data-toggle="tooltip" title="Tumblr" href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F&amp;name=TraderDAOai%20Contracts%20Security%20Audit%20Report&amp;description=TraderDAOai%20v3%20Security%20Audit%20Report%20%0D%0AAre%20Your%20Funds%20Safe%3F%20%0D%0AOur%20expert%20team%20at%20Callisto%20Network%20has%20conducted%20an%20in-depth%20security%20audit%20of%20the%20TraderDAOai%20v3%20smart%20contract.%20This%20audit%20aims%20to%20ensure%20the%20security%20of%20your" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Tumblr</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F&amp;description=TraderDAOai%20v3%20Security%20Audit%20Report%20%0D%0AAre%20Your%20Funds%20Safe%3F%20%0D%0AOur%20expert%20team%20at%20Callisto%20Network%20has%20conducted%20an%20in-depth%20security%20audit%20of%20the%20TraderDAOai%20v3%20smart%20contract.%20This%20audit%20aims%20to%20ensure%20the%20security%20of%20your&amp;media=https%3A%2F%2Fcallisto.network%2Fwp-content%2Fuploads%2F2023%2F05%2FTraderDAOai-Contracts-Security-Audit-Report-scaled.jpg" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Pinterest</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-vk awb-icon-vk" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Vk" data-toggle="tooltip" title="Vk" href="https://vk.com/share.php?url=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F&amp;title=TraderDAOai%20Contracts%20Security%20Audit%20Report&amp;description=TraderDAOai%20v3%20Security%20Audit%20Report%20%0D%0AAre%20Your%20Funds%20Safe%3F%20%0D%0AOur%20expert%20team%20at%20Callisto%20Network%20has%20conducted%20an%20in-depth%20security%20audit%20of%20the%20TraderDAOai%20v3%20smart%20contract.%20This%20audit%20aims%20to%20ensure%20the%20security%20of%20your" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Vk</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-xing awb-icon-xing" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Xing" data-toggle="tooltip" title="Xing" href="https://www.xing.com/social_plugins/share/new?sc_p=xing-share&amp;h=1&amp;url=https%3A%2F%2Fcallisto.network%2Ftraderdaoai-contracts-security-audit-report%2F" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Xing</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail awb-icon-mail fusion-last-social-icon" style="color:var(--sharing_social_links_icon_color);" data-placement="top" data-title="Email" data-toggle="tooltip" title="Email" href="mailto:?body=https://callisto.network/traderdaoai-contracts-security-audit-report/&amp;subject=TraderDAOai%20Contracts%20Security%20Audit%20Report" target="_self" rel="noopener noreferrer"><span class="screen-reader-text">Email</span></a><div class="fusion-clearfix"></div></div></div>	</div>
+													
+																	</article>
+	</section>
+						
+					</div>  <!-- fusion-row -->
+				</main>  <!-- #main -->
+				
+				
+								
+					
+		<div class="fusion-footer">
+					
+	<footer class="fusion-footer-widget-area fusion-widget-area">
+		<div class="fusion-row">
+			<div class="fusion-columns fusion-columns-4 fusion-widget-area">
+				
+																									<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="custom_html-3" class="widget_text fusion-footer-widget-column widget widget_custom_html" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Callisto Evolution</h4><div class="textwidget custom-html-widget"><div>
+	<a href="https://github.com/CallistoEnterprise" target="_blank">GitHub</a>
+</div>
+<div>
+	<a href="https://callisto.network/contact-us/">Contact Us</a>
+</div></div><div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="custom_html-4" class="widget_text fusion-footer-widget-column widget widget_custom_html" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Market Data</h4><div class="textwidget custom-html-widget"><div>
+	<a href="https://www.coingecko.com/en/coins/callisto-network" target="_blank">CoinGecko</a>
+</div>
+<div>
+	<a href="https://coinmarketcap.com/currencies/callisto-network/" target="_blank">CoinMarketCap</a>
+</div>
+<div>
+	<a href="https://coinpaprika.com/coin/clo-callisto-network/" target="_blank">CoinPaprika</a>
+</div></div><div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="custom_html-6" class="widget_text fusion-footer-widget-column widget widget_custom_html" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Get Your CLO Today</h4><div class="textwidget custom-html-widget"><div class="BuyCloFooter"></div>
+<div>
+	<a href="https://app.soy.finance/swap#/swap" target="_blank">SOY Finance</a>
+</div>
+<div>
+	<a href="https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0xCcbf1C9E8b4f2cDF3Bfba1098b8f56f97d219D53" target="_blank">PancakeSwap</a>
+</div>
+<div>
+	<a href="https://clo.click/1inch" target="_blank">1inch</a>
+</div>
+<div>
+	<a href="https://clo.click/Uniswap-ccCLO" target="_blank">Uniswap</a>
+</div></div><div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column fusion-column-last col-lg-3 col-md-3 col-sm-3">
+							<section id="custom_html-5" class="widget_text fusion-footer-widget-column widget widget_custom_html" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Join Callisto Evolution</h4><div class="textwidget custom-html-widget"><div class="mos_ftr_ico">
+	<a href="https://t.me/FushumaChain" target="_blank" rel="noopener noreferrer">
+	<img src="/wp-content/uploads/2022/10/Telegram.png" alt="Telegram">
+	</a>
+	<a href="https://twitter.com/FushumaChain" target="_blank" rel="noopener noreferrer">
+	<img src="/wp-content/uploads/2023/10/X.svg" alt="Twitter" class="X-logo-footer">
+	</a>
+	<a href="https://www.reddit.com/r/Fushuma/" target="_blank" rel="noopener noreferrer">
+	<img src="/wp-content/uploads/2022/10/Red.png" alt="Reddit">
+	</a>
+</div>
+
+<div class="mos_ftr_ico">
+		<a href="https://www.youtube.com/@FushumaChain" target="_blank" rel="noopener noreferrer">
+	<img src="/wp-content/uploads/2022/10/Youtube.png" alt="Youtube">
+	</a>
+	<a href="https://www.instagram.com/fushumachain/" target="_blank" rel="noopener noreferrer">
+	<img src="/wp-content/uploads/2022/10/Insta.png" alt="Instagram">
+	</a>
+	<a href="https://www.facebook.com/FushumaChain" target="_blank" rel="noopener noreferrer">
+	<img src="/wp-content/uploads/2022/10/Facebook.png" alt="Facebook">
+	</a>
+</div></div><div style="clear:both;"></div></section>																					</div>
+																											
+				<div class="fusion-clearfix"></div>
+			</div> <!-- fusion-columns -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- fusion-footer-widget-area -->
+
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		<img src="/wp-content/uploads/2023/05/Logo-ver2-2.png" alt="Callisto Network" />
+<p>© All rights reserved 2023</p>	</div>
+</div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+		</div> <!-- fusion-footer -->
+
+		
+																</div> <!-- wrapper -->
+		</div> <!-- #boxed-wrapper -->
+				<a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
+
+		<div class="avada-footer-scripts">
+			<script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||window.dispatchEvent(new CustomEvent("fusion-mobile-menu-collapsed",{detail:{nav:e}})),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach((function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")}))):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script>
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Avada-Child-Theme\/*","\/wp-content\/themes\/Avada\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div id="glt-translate-trigger"><span class="notranslate">Translate &raquo;</span></div><div id="glt-toolbar"></div><div id="flags" style="display:none" class="size18"><ul id="sortable" class="ui-sortable"><li id="English"><a href="#" title="English" class="nturl notranslate en flag English"></a></li></ul></div><div id='glt-footer'><div id="google_language_translator" class="default-language-en"></div></div><script>function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages:'en', autoDisplay: false}, 'google_language_translator');}</script><script type="text/html" id="wpb-modifications"> window.wpbCustomElement = 1; </script><div class='mwai-chatbot-container' data-params='{&quot;aiName&quot;:&quot;AI: &quot;,&quot;userName&quot;:&quot;User: &quot;,&quot;guestName&quot;:&quot;Guest:&quot;,&quot;textSend&quot;:&quot;Send&quot;,&quot;textClear&quot;:&quot;Clear&quot;,&quot;multiUpload&quot;:false,&quot;mode&quot;:&quot;chat&quot;,&quot;textInputPlaceholder&quot;:&quot;Type your message...&quot;,&quot;textInputMaxLength&quot;:512,&quot;textCompliance&quot;:&quot;&quot;,&quot;startSentence&quot;:&quot;Hi! How can I help you?&quot;,&quot;localMemory&quot;:true,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;window&quot;:true,&quot;icon&quot;:&quot;chat-robot-1.svg&quot;,&quot;iconText&quot;:&quot;&quot;,&quot;iconTextDelay&quot;:1,&quot;iconAlt&quot;:&quot;AI Chatbot Avatar&quot;,&quot;iconPosition&quot;:&quot;bottom-right&quot;,&quot;centerOpen&quot;:false,&quot;width&quot;:&quot;&quot;,&quot;openDelay&quot;:&quot;&quot;,&quot;iconBubble&quot;:false,&quot;windowAnimation&quot;:&quot;zoom&quot;,&quot;fullscreen&quot;:false,&quot;copyButton&quot;:false,&quot;headerSubtitle&quot;:&quot;Discuss with&quot;,&quot;containerType&quot;:&quot;standard&quot;,&quot;headerType&quot;:&quot;standard&quot;,&quot;messagesType&quot;:&quot;standard&quot;,&quot;inputType&quot;:&quot;standard&quot;,&quot;footerType&quot;:&quot;standard&quot;}' data-system='{&quot;botId&quot;:&quot;default&quot;,&quot;customId&quot;:null,&quot;userData&quot;:null,&quot;sessionId&quot;:&quot;N\/A&quot;,&quot;restNonce&quot;:null,&quot;contextId&quot;:11984,&quot;pluginUrl&quot;:&quot;https:\/\/callisto.network\/wp-content\/plugins\/ai-engine-pro\/&quot;,&quot;restUrl&quot;:&quot;https:\/\/callisto.network\/wp-json&quot;,&quot;stream&quot;:true,&quot;debugMode&quot;:false,&quot;eventLogs&quot;:false,&quot;speech_recognition&quot;:false,&quot;speech_synthesis&quot;:false,&quot;typewriter&quot;:false,&quot;crossSite&quot;:false,&quot;actions&quot;:[],&quot;blocks&quot;:[],&quot;shortcuts&quot;:[]}' data-theme='{&quot;type&quot;:&quot;internal&quot;,&quot;name&quot;:&quot;ChatGPT&quot;,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;settings&quot;:[],&quot;style&quot;:&quot;&quot;}'></div><script type="text/javascript" data-cfasync="false">
+					var hmenu_ajax_url = "https://callisto.network/wp-admin/admin-ajax.php";
+					var hmenu_url = "https://callisto.network/wp-content/plugins/hmenu/";
+				</script><style>body div .wpcf7-form .fit-the-fullspace{position:absolute;margin-left:-999em;}</style>	<script type="module">
+		import { Workbox } from "https:\/\/callisto.network\/wp-content\/plugins\/pwa\/wp-includes\/js\/workbox-v7.3.0\/workbox-window.prod.js";
+
+		if ( 'serviceWorker' in navigator ) {
+			window.wp = window.wp || {};
+			window.wp.serviceWorkerWindow = new Workbox(
+				"https:\/\/callisto.network\/wp.serviceworker",
+				{"scope":"\/"}			);
+			window.wp.serviceWorkerWindow.register();
+		}
+	</script>
+	<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/hmenu/assets/css/frontend_styles.css?ver=6.8.3">
+<link rel="stylesheet" href="https://callisto.network/wp-content/plugins/hmenu/_static_fonts/hero_static_fonts.css?ver=6.8.3">
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--awb-color-1: #ffffff;--wp--preset--color--awb-color-2: #f9f9fb;--wp--preset--color--awb-color-3: #f2f3f5;--wp--preset--color--awb-color-4: #65bd7d;--wp--preset--color--awb-color-5: #198fd9;--wp--preset--color--awb-color-6: #434549;--wp--preset--color--awb-color-7: #193f59;--wp--preset--color--awb-color-8: #141617;--wp--preset--color--awb-color-custom-1: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 18px;--wp--preset--font-size--xlarge: 36px;--wp--preset--font-size--huge: 54px;--wp--preset--font-family--lacupra: lacupra;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-color{color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-color{color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-color{color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-color{color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-color{color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-color{color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-color{color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-color{color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-1-color{color: var(--wp--preset--color--awb-color-custom-1) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-background-color{background-color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-background-color{background-color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-background-color{background-color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-background-color{background-color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-background-color{background-color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-background-color{background-color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-background-color{background-color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-background-color{background-color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-1-background-color{background-color: var(--wp--preset--color--awb-color-custom-1) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-border-color{border-color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-border-color{border-color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-border-color{border-color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-border-color{border-color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-border-color{border-color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-border-color{border-color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-border-color{border-color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-border-color{border-color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-1-border-color{border-color: var(--wp--preset--color--awb-color-custom-1) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-xlarge-font-size{font-size: var(--wp--preset--font-size--xlarge) !important;}.has-huge-font-size{font-size: var(--wp--preset--font-size--huge) !important;}.has-lacupra-font-family{font-family: var(--wp--preset--font-family--lacupra) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" href="https://callisto.network/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3">
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel="stylesheet" href="//callisto.network/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.37">
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/cryptibit-theme-addons/assets/js.js?ver=6.8.3" id="cryptibit-ta-script-frontend-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/mgroadmaptimeline/assets/frontend.js?ver=6.8.3" id="mgurt-script-frontend-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { "text direction\u0004ltr": [ "ltr" ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.1" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/callisto.network\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.1" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/google-language-translator/js/scripts.js?ver=6.0.20" id="scripts-js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=GoogleLanguageTranslatorInit" id="scripts-google-js"></script>
+<script type="text/javascript" src="//callisto.network/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.37" defer async id="tp-tools-js"></script>
+<script type="text/javascript" src="//callisto.network/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.37" defer async id="revmin-js"></script>
+<script type="text/javascript" id="custom-script-js-extra">
+/* <![CDATA[ */
+var wpdata = {"object_id":"11984","site_url":"https:\/\/callisto.network"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/wp-meta-and-date-remover/assets/js/inspector.js?ver=1.1" id="custom-script-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/Ultimate_VC_Addons-3.19.22/assets/min-js/info-box.min.js?ver=3.19.22" id="ultimate-vc-addons-info_box_js-js"></script>
+<script type="text/javascript" id="hmenu_user-js-extra">
+/* <![CDATA[ */
+var hmenu_frontend_menu = {"hmenu_menu_id":"1","hmenu_menu_url":["https:\/\/callisto.network\/traderdaoai-contracts-security-audit-report\/"]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/hmenu/assets/js/frontend_script.js?ver=6.8.3" id="hmenu_user-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/hmenu/assets/js/frontend_dimensions.js?ver=6.8.3" id="hmenu_userdimentions-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.9" id="wpb_composer_front_js-js"></script>
+<script type="text/javascript" src="https://callisto.network/wp-content/uploads/fusion-scripts/68ab4e7419fae633eb4819ee9a009100.min.js?ver=3.13.1" id="fusion-scripts-js"></script>
+<script type="text/javascript" id="cf7-antispam-js-extra">
+/* <![CDATA[ */
+var cf7a_settings = {"prefix":"_cf7a_","disableReload":"1","version":"uYWxnw0etu7hGQQU7FKoKQ=="};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://callisto.network/wp-content/plugins/cf7-antispam/build/script.js?ver=1829dacfa96318b4e905" id="cf7-antispam-js"></script>
+<script>let frozenPercent;
+// Iframe custom size
+const newsIframe = document.querySelector('.wpb_wrapper p iframe');
+const setIframeWidthHeight = () => {
+    if (document.querySelector('body').getBoundingClientRect('').width <= 990 && document.querySelector('body').getBoundingClientRect('').width > 750) {
+        newsIframe.setAttribute('width', '400px');
+        newsIframe.setAttribute('height', '300px');
+    } else if (document.querySelector('body').getBoundingClientRect('').width <= 750) {
+        newsIframe.setAttribute('width', '300px');
+        newsIframe.setAttribute('height', '200px');
+    } else {
+    	newsIframe.setAttribute('width', '600px');
+        newsIframe.setAttribute('height', '400px');
+    }
+}
+
+const cloMetrics = () => {
+    // variables
+    let frozen_coins;
+    let total_wallets;
+    let total_supply;
+    let burned_coins;
+    let dead_coins;
+    // Fetch data
+    const fetchData = () => {
+        fetch('https://api.callisto.network/clo_metrics')
+        .then(response => response.json())
+          .then(data => {
+            frozen_coins = String(data.result.frozen_coins);
+            total_wallets = data.result.total_wallets;
+            setTimeout(() => {
+                if (frozenPercent != undefined) {
+                    document.getElementById('frozenCoinsValueLanding').innerText = addComma(frozen_coins.slice(0, frozen_coins.indexOf('.')))+' CLO' + frozenPercent;
+                } else {
+                    document.getElementById('frozenCoinsValueLanding').innerText = addComma(frozen_coins.slice(0, frozen_coins.indexOf('.')))+' CLO';
+                }
+                document.getElementById('totalWalletsValueLanding').innerText = addComma(total_wallets);
+            }, 100);
+            fetch('https://05.callisto.network/burn/current_supply')
+            .then(response => response.json())
+            .then(Data => {
+                total_supply = Data.coin_supply;
+                if (frozenPercent == undefined) {
+                    frozenPercent = ` (${parseInt(frozen_coins * 100 / total_supply)}%)`;
+                    document.getElementById('frozenCoinsValueLanding').innerText += frozenPercent;
+                }
+                burned_coins = Number(Data.total_burned);
+                dead_coins = Number(Data.dead_clo);
+                frozenPercent = ` (${parseInt(frozen_coins * 100 / total_supply)}%)`;
+                document.getElementById('circulatingSupplyValueLanding').innerText = addComma(parseInt(total_supply))+' CLO';
+                document.getElementById('burnedCoinsValueLanding').innerText = addComma(parseInt(burned_coins + dead_coins))+' CLO';
+            })
+        })
+    }
+    setInterval(() => {
+        fetchData();
+    }, 1500)
+    }
+
+// Removes the white space in the bottom of the pages
+const removeWhiteSpace = () => {
+    try {
+        const Elements = [
+            document.getElementById('sovrn_beacon'),
+            Array.from(document.getElementsByTagName('img')).filter(element => element.src.slice(0, 32) == "https://um.simpli.fi/lj_match?r=")[0],
+            Array.from(document.getElementsByTagName('img')).filter(element => element.src.slice(0, 57) == "https://i.liadm.com/s/57333?bidder_id=204553&bidder_uuid=")[0],
+            Array.from(document.getElementsByTagName('iframe')).filter(element => element.src == "https://get.s-onetag.com/underground-sync-portal/Portal.html")[0],
+        ];
+        for (let element of Elements) {
+            element.remove();
+        }
+    } catch (err) {
+        setTimeout(removeWhiteSpace, 10);
+    }
+}
+
+// Adds comma to numbers
+const addComma = originalNum => {
+    let num = String(originalNum);
+    let total = num.length % 3;
+    let whereIsLastComma;
+    if (num.length > 3) {
+        if (total !== 0){
+          num = num.slice(0, total)+','+num.slice(total, num.length);
+          whereIsLastComma = total;
+        } else {
+            num = num.slice(0, 3)+','+num.slice(3, num.length);
+          whereIsLastComma = 3;
+        }
+        let left = (num.length - 2) / 3 - 1;
+        for (let i = 1; i <= left; i++) {
+            num = num.slice(0, whereIsLastComma + 4)+','+num.slice(whereIsLastComma+4, num.length);
+            whereIsLastComma = whereIsLastComma + 4;
+        }
+    }
+    return num;
+}
+
+// Update Frozen coins
+const fetchFrozenCoinsData = () => {
+    const frozenCoinsElement = document.getElementsByTagName('h6')[2];
+    let frozenCoins; 
+    fetch('https://api.callisto.network/clo_metrics')
+    .then(response => response.json())
+    .then(data => {
+        frozenCoins = data.result.frozen_coins;
+        frozenCoinsElement.innerText = addComma(Math.round(frozenCoins));
+    })
+}
+
+// Update Frozen coins percent
+const fetchFrozenCoinsPercent = () => {
+    const frozenPercentElement = document.getElementsByTagName('h6')[1];
+    fetch('https://api.callisto.network/clo_metrics')
+    .then(response => response.json())
+    .then(data => {
+        const frozenCoins = data.result.frozen_coins;
+        const totalCoins = data.result.total_supply;
+        const percent = frozenCoins * 100 / totalCoins;
+        frozenPercentElement.innerText = Math.round(percent) + '%';
+    })
+}
+
+// script execute after DOM content loaded
+document.addEventListener('DOMContentLoaded', () => {
+    const link = Array.from(document.getElementsByTagName('link')).filter(element => element.rel == 'canonical')[0];
+    // latest news page scripts
+    if (link.href == "https://callisto.network/latest-news/") {
+        setIframeWidthHeight();
+        window.addEventListener('resize', setIframeWidthHeight);
+    } else if (link.href == "https://callisto.network/cold-staking/") {
+        // setInterval(fetchFrozenCoinsPercent, 1000);
+        setInterval(fetchFrozenCoinsData, 1000);
+    } else if (link.href == "https://callisto.network/?page_id=13198") {
+        setTimeout(cloMetrics, 1000);
+    }
+    setTimeout(removeWhiteSpace, 1500);
+})</script>				<script type="text/javascript">
+				jQuery( document ).ready( function() {
+					var ajaxurl = 'https://callisto.network/wp-admin/admin-ajax.php';
+					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
+						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
+							jQuery( '.fusion-login-nonce' ).html( response );
+						});
+					}
+				});
+				</script>
+						</div>
+
+			<section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
+		<a href="#" id="toTop" class="fusion-top-top-link">
+			<span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
+
+					</a>
+	</section>
+		</body>
+</html>

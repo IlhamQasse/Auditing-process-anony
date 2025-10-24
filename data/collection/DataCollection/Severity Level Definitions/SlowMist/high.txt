@@ -1,0 +1,2 @@
+High severity vulnerabilities will affect the normal operation of the DeFi project. It is
+strongly recommended to fix high-risk vulnerabilities.

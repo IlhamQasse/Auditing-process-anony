@@ -1,0 +1,3 @@
+Low severity vulnerabilities may affect the operation of the DeFi project in certain
+scenarios. It is suggested that the project party should evaluate and consider whether
+these vulnerabilities need to be fixed.

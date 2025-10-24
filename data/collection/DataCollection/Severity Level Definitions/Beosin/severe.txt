@@ -1,0 +1,6 @@
+Severe impact generally refers to the vulnerability can have a serious impact on the confidentiality,
+integrity, availability of smart contracts or their economic model, which can cause substantial
+economic losses to the contract business system, large-scale data disruption, loss of authority
+management, failure of key functions, loss of credibility, or indirectly affect the operation of other
+smart contracts associated with it and cause substantial losses, as well as other severe and mostly
+irreversible harm.

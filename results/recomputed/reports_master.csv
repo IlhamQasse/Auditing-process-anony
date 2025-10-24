@@ -1,0 +1,161 @@
+Provider,Project,Link,Year,Platform,Language,Domain,Executive Summary,Scope,System/Protocol Overview,Versioning & References,Methodology / Procedure,Tools & Automation,Severity Model / Risk Classification,Findings Summary (Table),Detailed Findings,Recommendations / Remediation Guidance,Status of Findings / Verification,Threat / Trust Model,Privileged Roles & Centralisation Risks,Risk Taxonomy / Terminology & References,Timeline / Engagement Details,Testing / Coverage Quality,Documentation Quality,Upgradeability / Governance Controls,Limitations / Disclaimers / Non-Goals
+Beosin,VoltToken,https://www.beosin.com/audits/VoltToken_201808300930.pdf,2018.0,,,unknown,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Beosin,OneSwap,https://www.beosin.com/audits/OneSwap_202009062030.pdf,2020.0,,,unknown,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+Beosin,LeverFi,https://beosin.com/audits/LeverFi_202210111500.pdf,2022.0,,,unknown,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+Beosin,Aqua Protocol,https://www.beosin.com/audits/Aqua%20Protocol_202407221416.pdf,2024.0,,,unknown,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+Callisto Network,Cryptonity,https://github.com/EthereumCommonwealth/Auditing/issues/9#issuecomment-417291310,2018.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Callisto Network,Cryptomillions.io,https://github.com/EthereumCommonwealth/Auditing/issues/362#issuecomment-524542215,2019.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Callisto Network,MyPet Social Token,https://callisto.network/mypetsocial-token-security-audit/,2021.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Callisto Network,TraderDAOa,https://callisto.network/traderdaoai-contracts-security-audit-report/,2023.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1
+ChainSecurity,Kyber Network,https://github.com/ChainSecurity/audits/blob/master/ChainSecurity_KyberNetwork.pdf,2018.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,1
+ChainSecurity,OmniBridge,https://cdn.prod.website-files.com/65d35b01a4034b72499019e8/6644cb21505a5852dbc23d7a_ChainSecurity_POANetwork_OmniBridge_FinalReport_compressed.pdf,2021.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1
+ChainSecurity,Starknet Teleport,https://cdn.prod.website-files.com/65d35b01a4034b72499019e8/664462e4dbf48a0c9fd3c5d4_ChainSecurity_MakerDAO_Starknet_Teleport_audit_compressed.pdf,2022.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1
+ChainSecurity,Enzyme,https://cdn.prod.website-files.com/65d35b01a4034b72499019e8/66be296c9f2eda43393e97f8_ChainSecurity_Enzyme_Foundation_Sulu_Extensions_XV_audit%20(1).pdf,2024.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1
+Coinsult,UncleTrump AI,https://github.com/Coinsult/Audits/blob/main/Coinsult_UncleTrump_AI_BbQs...k7Xb_Audit.pdf,2025.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+ContractWolf,ZKS Token,https://github.com/ContractWolf/smart-contract-audits/blob/main/ContractWolf_Audit_ZKS_Token.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,1
+ContractWolf,GETE Network,https://github.com/ContractWolf/smart-contract-audits/blob/main/ContractWolf_Audit_GETE_Network.pdf,2025.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,1
+Cyberscope,,https://github.com/cyberscope-io/audits/blob/main/1-bitch/audit.pdf,2022.0,,,unknown,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0
+Cyberscope,OpenLiquidity,https://github.com/cyberscope-io/audits/blob/main/0xlp/audit.pdf,2024.0,,,unknown,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0
+EtherAuthority,,,,,,unknown,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+EtherAuthority,ARSI Token,https://github.com/EtherAuthority/Audit/blob/main/ARULSINGAM%20%20Token%20-%20REVISED.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,1,0,1
+EtherAuthority,Tether USD (USDT),https://github.com/EtherAuthority/Audit/blob/main/Binance-BSC-USD.pdf,2025.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,1,0,1
+FreshCoins,Minidoge,https://github.com/freshcoins/Smart-Contract-Audits/blob/main/MiniDoge2022_0xbdfa2231e5944f5fe21491aec4d303ff78a95f61.pdf,2022.0,,,unknown,1,0,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+FreshCoins,3N rewards,https://github.com/freshcoins/Smart-Contract-Audits/blob/main/3NRewards_0x4a4B4Ff9f2a28aE1d25f642169e3deBBdb1A6605_SEPOLIA.pdf,2024.0,,,unknown,1,0,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+FreshCoins,,,,,,unknown,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Hacken.io,,,,,,unknown,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Hacken.io,Neptune Mutual,https://hacken.io/audits/neptune-mutual/sca-neptune-mutual-liquidity-pool-sep2023/,2023.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+Hacken.io,RedStone Finance,https://hacken.io/audits/redstone/sca-redstone-finance-solana-patch-may2025/,2025.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+HashEx,Zelwin,https://github.com/HashEx/public_audits/blob/master/zelwin-token/Zelwin%20token%20report.pdf,2021.0,,,unknown,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,1,1,0,0
+HashEx,Liquid Apes,https://github.com/HashEx/public_audits/blob/master/Liquid%20Apes/Liquid%20Apes.pdf,2023.0,,,unknown,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0
+HashEx,Evedex,https://github.com/HashEx/public_audits/blob/master/EVEDEX/EVEDEX.pdf,2025.0,,,unknown,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0
+InterFi Audits,ABI,https://github.com/interfinetwork/smart-contract-audits/blob/audit-updates/ABI_AuditReport_InterFi.pdf,2021.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0
+InterFi Audits,Black Stallion,https://irp.cdn-website.com/1b45ecb9/files/uploaded/BlackStallion_AuditReport_InterFi.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0
+Omniscia,Agrofarm,https://omniscia.io/agrotoken-token-implementation/compilation,2021.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
+Omniscia,Bolide Finance Main Storage,https://omniscia.io/reports/bolide-finance-main-storage-module-63ce6a17cb4e7f0016344535/,2023.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
+Omniscia,Limit Break Creator Token Transfer Validator V5,https://omniscia.io/reports/limit-break-creator-token-transfer-validator-v5-67b4c5a5700e89001a900f61/,2025.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
+Paladin Blockchain Security,Thoreum Finance,https://paladinsec.co/projects/thoreum-finance/,2021.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Paladin Blockchain Security,Brewlabs,https://paladinsec.co/projects/brewlabs/,2023.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Paladin Blockchain Security,Pangolin,https://paladinsec.co/projects/pangolin/,2025.0,,,unknown,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+PeckShield,BoringDAO,https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-BoringDAO-1.0-2020-89.pdf,2020.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+PeckShield,Bomb Token,https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-ERC20-Bomb-v1.0.pdf,2022.0,,,unknown,1,1,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0
+PeckShield,Babypie protocol,https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Babypie-v1.0.pdf,2024.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+Quantstamp,,,,,,unknown,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Quantstamp,,,,,,unknown,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Quantstamp,,,,,,unknown,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Quantstamp,,,,,,unknown,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+QuillAudits,TravelHelper,https://github.com/Quillhash/QuillAudit_Reports/blob/master/TravelHelper.md,2018.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+QuillAudits,COXENA,https://github.com/Quillhash/QuillAudit_Reports/blob/master/COX%20Audit%20Report.pdf,2020.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
+QuillAudits,Animal Token,https://github.com/Quillhash/QuillAudit_Reports/blob/master/Animal%20Token%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf,2022.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
+QuillAudits,AirLyft,https://github.com/Quillhash/QuillAudit_Reports/blob/master/AirLyft%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf,2024.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
+Sherlock,Flux Protocol,https://github.com/sherlock-protocol/sherlock-reports/blob/main/audits/2022.12.12%20-%20Final%20-%20DODO%20Audit%20Report.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,1,1,0,0
+Sherlock,Truflation,https://github.com/sherlock-protocol/sherlock-reports/blob/main/audits/2024.01.08%20-%20Final%20-%20Truflation%20Audit%20Report.pdf,2024.0,,,unknown,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+SlowMist,Ord,https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain/SlowMist%20Audit%20Report%20-%20OKX/SlowMist%20Audit%20Report%20-%20ord_en-us.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+SlowMist,Jovay,https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain/Jovay%20-%20SlowMist%20Audit%20Report.pdf,2025.0,,,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0
+Trail of Bits,"Aleo snarkVM, snarkOS & Bullshark BFT",https://example.com/aleo-snarkvm-audit,2023.0,Rust (Aleo blockchain),Rust,unknown,1,1,1,0,1,1,0,1,1,1,1,1,0,0,0,1,1,0,1
+Trail of Bits,Balancer V2 Security Assessment,https://example.com/balancer-v2-audit,2021.0,Ethereum DeFi (Solidity),Solidity,unknown,1,1,1,0,1,1,0,1,1,1,1,1,0,0,0,1,1,0,1
+Trail of Bits,Maple Finance Security Assessment,https://example.com/maple-finance-audit,2022.0,Ethereum lending platform,Solidity,unknown,1,1,1,0,1,1,0,1,1,1,1,0,0,0,0,1,1,0,1
+OpenZeppelin,Aave Protocol v2 Audit,https://example.com/aave-protocol-audit,2020.0,Ethereum lending protocol,Solidity,unknown,1,1,1,0,1,1,0,0,1,1,1,1,0,0,0,1,1,0,1
+OpenZeppelin,Compound Protocol Comprehensive Audit,https://example.com/compound-protocol-audit,2022.0,Ethereum DeFi (Compound),Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,1,1,0,0,1,1,0,1
+OpenZeppelin,TruMATIC Smart Contracts Audit,https://example.com/trumatic-audit,2023.0,Polygon/Ethereum hybrid token platform,Solidity,unknown,1,1,1,1,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+ConsenSys Diligence,GrowthDeFi WHEAT Audit,https://example.com/growthdefi-wheat-audit,2021.0,Binance Smart Chain (WHEAT token),Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,1,0,1,0,1,1,0,1
+ConsenSys Diligence,Arbitrum Nitro Smart Contracts Audit,https://example.com/arbitrum-nitro-audit,2022.0,Arbitrum rollup contracts (Ethereum L2),Solidity and Go (off-chain out of scope),unknown,1,1,1,0,1,1,1,0,1,1,1,1,0,1,0,1,1,0,1
+ConsenSys Diligence,Forta Delegated Staking Audit,https://example.com/forta-delegated-staking-audit,2022.0,Ethereum (Forta delegation protocol),Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,1,0,0,0,1,1,0,1
+Quantstamp,SynFutures v3 Audit,https://example.com/synfutures-v3-audit,2023.0,Decentralized futures exchange on Ethereum,Solidity,unknown,1,1,1,0,1,1,0,1,1,1,1,1,0,0,1,1,1,0,1
+Quantstamp,Ondo Finance Audit,https://example.com/ondo-finance-audit,2021.0,Yield aggregator on Ethereum,Solidity,unknown,1,1,1,0,1,1,0,1,1,1,1,0,0,0,1,1,1,0,1
+Quantstamp,Mezo Points Portal & Bitcoin Bridge Audit,https://example.com/mezo-points-portal-audit,2024.0,Bitcoin bridge and reward portal (Solidity),Solidity,unknown,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,1,0,1
+CertiK,STFX V2 Staking Audit,https://example.com/stfx-v2-staking-audit,2023.0,Ethereum staking protocol,Solidity,unknown,1,1,1,0,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1
+CertiK,Folks Finance Audit,https://example.com/folks-finance-audit,2022.0,Algorand DeFi (pyteal contracts),PyTeal (Algorand),unknown,1,1,0,0,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1
+CertiK,Mint Club V2 Audit,https://example.com/mint-club-v2-audit,2024.0,Binance Smart Chain token factory,Solidity,unknown,1,1,0,0,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1
+Kudelski Security,Wormhole Security Assessment,https://example.com/wormhole-security-assessment,2022.0,"Cross‑chain message passing protocol (Ethereum, Solana, Terra)","Solidity, Rust, TerraScript",unknown,1,1,1,0,1,1,0,0,1,1,1,1,0,0,0,1,1,0,1
+Kudelski Security,Marinade.finance Security Assessment,https://example.com/marinade-security-assessment,2021.0,Solana staking protocol,Rust,unknown,1,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1
+Kudelski Security,TrustWallet Starknet-rs Secure Code Review,https://example.com/trustwallet-starknet-audit,2023.0,Starknet-rs cryptographic library (Rust),Rust,unknown,1,1,1,0,1,1,0,1,1,1,1,1,0,0,0,1,1,0,1
+Halborn,Harvest Strategy Security Assessment,https://example.com/harvest-strategy-audit,2025.0,Yield farming protocols (Ethereum),Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,1
+Halborn,Beanstalk Basin Security Assessment,https://example.com/beanstalk-basin-audit,2023.0,Stablecoin liquidity protocol (Beanstalk Basin),Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,1
+Halborn,Stader Labs ETHx Security Assessment,https://example.com/stader-ethx-audit,2023.0,Staking liquid token ETHx,Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,1
+Hacken,Covalent X Token Audit,https://example.com/covalent-x-token-audit,2024.0,Ethereum/EVM token issuance,Solidity,unknown,1,1,0,0,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1
+Hacken,Aurora Labs Voting Contracts Audit,https://example.com/aurora-labs-vote-audit,2023.0,NEAR-based voting contracts,Rust and Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1
+Hacken,Tokeny T‑REX Smart Contracts Audit,https://example.com/tokeny-trex-audit,2023.0,Permissioned token platform (EVM),Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+Zokyo,Penpie Smart Contract Audit (V1),https://example.com/penpie-audit-v1,2023.0,Penpie DeFi protocol (Ethereum),Solidity,unknown,1,1,0,0,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1
+Zokyo,Penpie Smart Contract Audit (V2),https://example.com/penpie-audit-v2,2023.0,Penpie DeFi protocol (Ethereum),Solidity,unknown,1,1,0,0,1,1,0,1,1,1,1,0,1,0,0,1,1,0,1
+Zokyo,Minterest Smart Contract Audit,https://example.com/minterest-audit,2022.0,Minterest DeFi lending protocol,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+Zellic,1inch Farming Audit,https://example.com/1inch-farming-audit,2022.0,1inch farming pool contracts,Solidity,unknown,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0,1,1,0,1
+Zellic,Anzen Finance Audit,https://example.com/anzen-finance-audit,2024.0,Anzen Finance lending protocol,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,1,1,1,1,1
+Zellic,Avantis Smart Contract Security Assessment,https://example.com/avantis-audit,2023.0,Avantis DeFi platform,Solidity,unknown,1,1,1,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+PeckShield,Penpie Protocol Audit,https://example.com/peckshield-penpie-audit,2024.0,Penpie protocol (Solidity),Solidity,unknown,1,1,1,0,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1
+PeckShield,Extra Finance Protocol Audit,https://example.com/extra-finance-audit,2024.0,Extra Finance (fork of Aave V3) on Ethereum,Solidity,unknown,1,1,1,0,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1
+PeckShield,uniBTC Audit,https://example.com/unibtc-audit,2024.0,uniBTC synthetic BTC token on EVM,Solidity,unknown,1,1,1,0,1,1,0,1,1,1,1,0,1,0,0,1,1,0,1
+Beosin,ApeironToken,https://beosin.com/ApeironToken-Audit-Report,2023.0,,,unknown,1,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0
+Beosin,DECHAT,https://beosin.com/DECHAT-Audit-Report,2023.0,,,unknown,1,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0
+Beosin,SWO,https://beosin.com/SWO-Audit-Report,2023.0,,,unknown,1,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0
+Blocksafu,Baby Ethereum,https://github.com/blocksafu111/audit/Baby Ethereum_Audit.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Blocksafu,Agrocoin,https://github.com/blocksafu111/audit/Agrocoin_Audit.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Blocksafu,ApeGuild,https://github.com/blocksafu111/audit/ApeGuild_Audit.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Callisto Network,USDC Token,https://callisto.network/security-audit/usdc,2023.0,,,unknown,1,1,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+Callisto Network,Hydro Token,https://callisto.network/security-audit/hydro,2018.0,,,unknown,1,1,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+Callisto Network,Monsta Infinite,https://callisto.network/security-audit/monsta-infinite,2021.0,,,unknown,1,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Coinsult,DogePoki,https://dogepoki.com/Coinsult_DOGEPOKI_Audit.pdf,2025.0,,,unknown,1,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0
+Coinsult,Earthmeta,https://earthmeta.ai/Coinsult_Earthmeta_Audit.pdf,2024.0,,,unknown,1,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0
+Coinsult,AICompanions,https://github.com/Coinsult/Audits/blob/main/Coinsult_AICompanions_Audit.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0
+ContractWolf,Asterix,https://github.com/ContractWolf/smart-contract-audits/raw/main/Asterix/ContractWolf_Audit_Asterix.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1
+ContractWolf,BNB Bet Club,https://github.com/ContractWolf/smart-contract-audits/raw/main/BNB_Bet_Club/ContractWolf_Audit_BNB_Bet_Club.pdf,2023.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1
+ContractWolf,ADA20,https://github.com/ContractWolf/smart-contract-audits/raw/main/ADA20/ContractWolf_Audit_ADA20.pdf,2024.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1
+Cyberscope,EonHero,https://github.com/cyberscope-io/audits/raw/main/ehro/audit.pdf,2021.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Cyberscope,ADDAMS Token,https://github.com/cyberscope-io/audits/raw/main/addams/v1/audit.pdf,2023.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Cyberscope,RAIFI Community,https://github.com/cyberscope-io/audits/raw/main/raifi/ai/RAIFI-Community-Audit.pdf,2025.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+EtherAuthority,WhaleSwap,https://etherauthority.io/reports/WhaleSwap_Audit.pdf,2021.0,,,unknown,1,1,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0
+EtherAuthority,6ense Token,https://etherauthority.io/reports/6ense_Audit.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0
+EtherAuthority,Rocket Pool rETH,https://etherauthority.io/reports/RocketPool_rETH_Audit.pdf,2024.0,,,unknown,1,1,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0
+FreshCoins,Cryptonomics,https://github.com/freshcoins/audits/raw/main/Cryptonomics_Audit.pdf,2022.0,,,unknown,1,1,1,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+FreshCoins,NGA Tiger,https://freshcoins.io/audits/NGA_Tiger_Audit.pdf,2023.0,,,unknown,1,1,1,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+FreshCoins,MemeNexusAI,https://memenexus.ai/audit/FreshCoins_MemeNexusAI_Audit.pdf,2024.0,,,unknown,1,1,1,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+InterFi Audits,Sparklo,https://interfi.network/audits/Sparklo_Audit.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+InterFi Audits,Meemo,https://interfi.network/audits/Meemo_Audit.pdf,2023.0,,,unknown,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+InterFi Audits,FJB,https://interfi.network/audits/FJB_Audit.pdf,2024.0,,,unknown,1,1,0,0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+Paladin Blockchain Security,Camelot,https://github.com/paladinsec/projects/blob/main/22-10-30%20Camelot%20Final%20Report.pdf,2022.0,,,unknown,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1
+Paladin Blockchain Security,Smardex,https://github.com/paladinsec/projects/blob/main/23-07-19%20Smardex%20Final%20Report.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1
+Paladin Blockchain Security,Derive,https://github.com/paladinsec/projects/blob/main/24-11-20%20Derive%20Final%20Report.pdf,2024.0,,,unknown,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1
+Soken,Cabana,https://raw.githubusercontent.com/sokenteam/smart_contract_audits/main/Cabana%20Standard%20Smart%20Contract%20Audit.pdf,2021.0,,,unknown,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+Soken,Amica Token,https://raw.githubusercontent.com/sokenteam/smart_contract_audits/main/Amica%20Token%20Standard%20Smart%20Contract%20Audit.pdf,2022.0,,,unknown,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+Soken,AIFIN,https://raw.githubusercontent.com/sokenteam/smart_contract_audits/main/AIFIN%20Comprehensive%20Smart%20Contract%20Audit.pdf,2023.0,,,unknown,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+SolidProof,AniFi World,https://github.com/solidproof/Projects/raw/main/2022/AniFi_World/SmartContract_Audit_Solidproof_AniFi_World.pdf,2022.0,,,unknown,1,1,1,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+SolidProof,Poodlana,https://github.com/solidproof/Projects/raw/main/2024/Poodlana/SmartContract_Audit_Solidproof_Poodlana.pdf,2024.0,,,unknown,1,1,1,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+SolidProof,Dephaser,https://github.com/solidproof/Projects/raw/main/2025/Dephaser/SmartContract_Audit_Solidproof_Dephaser.pdf,2025.0,,,unknown,1,1,1,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+TechRate,AXIEDOGE,https://github.com/TechRate/Smart-Contract-Audits/raw/main/August/AXIEDOGE.pdf,2021.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1
+TechRate,VRFI,https://github.com/TechRate/Smart-Contract-Audits/raw/main/August_2022/VRFI%20Full%20Smart%20Contract%20Security%20Audit.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1
+TechRate,Midareum,https://github.com/TechRate/Smart-Contract-Audits/raw/main/April_2024/Midareum.pdf,2024.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1
+Verichains Lab,UNS Token,https://uns.technology/Verichains-doc.pdf,2022.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Verichains Lab,Amnis Finance,https://raw.githubusercontent.com/verichains/public-audit-reports/main/Amnis%20Finance%20-%20Public%20Report%20v1.1.pdf,2023.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Verichains Lab,Ronin Marketplace,https://docs.skymavis.com/ronin-marketplace-verichains-report.pdf,2024.0,,,unknown,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+ChainSecurity,HelloGold Public Report,https://example.com/hellogold_report.pdf,2017.0,Ethereum,Solidity,unknown,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1
+ChainSecurity,Wrapped M Token Audit,https://example.com/wrapped_m_token_audit.pdf,2024.0,Sui-based token,Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+ChainSecurity,MUSD Extension Audit,https://example.com/musd_extension_audit.pdf,2025.0,M0 protocol (financial token),Solidity,unknown,1,1,0,0,1,1,1,0,1,0,1,0,0,1,0,1,1,0,1
+Omniscia,Gravita Protocol Audit,https://example.com/gravita_protocol_audit.pdf,2023.0,Ethereum (Liquity-based protocol),Solidity,unknown,1,1,1,0,1,1,0,1,1,1,1,0,0,0,0,1,1,0,1
+Omniscia,Sophon Staking & Merkle Contracts Audit,https://example.com/sophon_staking_merkle_audit.pdf,2025.0,Sophon Network,Solidity,unknown,1,1,1,0,1,1,0,1,1,1,1,0,0,0,0,1,1,0,1
+Omniscia,Support Infrastructure Security Review,https://example.com/support_infrastructure_audit.pdf,2024.0,Sophon support infrastructure & NFT implementation,Solidity,unknown,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0,1,1,1,1
+Cyfrin,LinkPool LiquidSD Index Pool Audit,https://example.com/cyfrin_linkpool_audit.pdf,2023.0,Ethereum (Liquid staking via LinkPool),Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,1
+Cyfrin,Wormhole Thermae v2.1 Audit,https://example.com/cyfrin_wormhole_thermae_audit.pdf,2024.0,Cross‑chain liquidity protocol (Wormhole & Uniswap v3),Solidity,unknown,1,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1
+Cyfrin,Ondo Finance v2.0 Audit,https://example.com/cyfrin_ondo_finance_audit.pdf,2024.0,Ondo Finance (tokenised treasury & rebase tokens),Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,1
+QuillAudits,CyberPerp Audit,https://example.com/cyberperp_audit.pdf,2024.0,CyberPerp DeFi protocol,Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,0,0,1,1,1,1,0,1
+QuillAudits,CyberPerp Audit (Re-check),https://example.com/cyberperp_audit_second.pdf,2024.0,CyberPerp DeFi protocol,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+QuillAudits,CyberPerp Audit (Final Review),https://example.com/cyberperp_audit_final.pdf,2024.0,CyberPerp DeFi protocol,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+HashEx,ENO Final Audit,https://example.com/eno_final_audit.pdf,2024.0,DeFi staking token (ENO),Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+HashEx,0xACID Final Audit,https://example.com/0xacid_audit.pdf,2023.0,DeFi token (0xACID),Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+HashEx,Avana Token Final Audit,https://example.com/avana_token_audit.pdf,2023.0,DeFi token (AVANA),Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+Sherlock,Covalent Security Review,https://example.com/covalent_security_review.pdf,2024.0,Covalent staking contracts,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+Sherlock,Olympus Security Review,https://example.com/olympus_security_review.pdf,2023.0,Olympus DAO Bophades (RBS v2),Solidity,unknown,1,1,1,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+Sherlock,Dinari Security Review,https://example.com/dinari_security_review.pdf,2023.0,Dinari SBT contracts,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+Runtime Verification,Dual Governance Formal Verification (Lido),https://example.com/dual_governance_rv.pdf,2025.0,Lido dual-governance mechanism,Solidity,unknown,1,1,0,0,1,1,1,0,1,0,1,1,0,0,0,1,1,1,1
+Runtime Verification,StellarBroker Security Audit,https://example.com/stellarbroker_rv_audit.pdf,2025.0,StellarBroker router contract (Soroban smart contracts),Rust,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+Runtime Verification,Synonym Audit Report,https://example.com/synonym_rv_audit.pdf,2023.0,Cross-chain borrow/lend protocol (Synonym),Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,1,0,0,0,1,1,0,1
+Sigma Prime,Eth‑Docker Updates Security Assessment,https://example.com/eth_docker_update_security_assessment.pdf,2024.0,Stader Labs eth‑docker infrastructure,Shell scripts (bash),unknown,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1
+Sigma Prime,Eth‑Docker Security Assessment (Initial),https://example.com/eth_docker_security_assessment.pdf,2023.0,Stader Labs eth‑docker infrastructure,Shell scripts (bash),unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,1
+Sigma Prime,Stader Labs ETHx Phase 2 Security Assessment,https://example.com/stader_ethx_phase2_security_assessment.pdf,2023.0,ETHx smart contracts (phase 2),Solidity,unknown,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,1
+Pessimistic,1inch Aggregation Router V6 Security Analysis,https://example.com/1inch_router_v6_analysis.pdf,2024.0,1inch Aggregation Router V6,Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+Pessimistic,Morpho Vaults Security Analysis,https://example.com/morpho_vaults_analysis.pdf,2023.0,Morpho Vaults DeFi protocol,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+Pessimistic,Morpho Security Analysis,https://example.com/morpho_security_analysis.pdf,2022.0,Morpho AaveV2 Optimizer,Solidity,unknown,1,1,0,0,1,1,1,0,1,1,1,0,0,1,0,1,1,0,1
+0xGuard,Arbius Marketplace Security Assessment,https://example.com/arbius_marketplace_security_assessment.pdf,2024.0,Arbius Marketplace (smart contracts),Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+0xGuard,XcelSwap Security Assessment,https://example.com/xcelswap_security_assessment.pdf,2022.0,XcelSwap (AMM) on BNB chain,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+0xGuard,Champion Finance EVIC Security Assessment,https://example.com/champion_finance_evoc_audit.pdf,2022.0,Champion Finance EVIC on Avalanche,Solidity,unknown,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+BlockSec,Burrow Security Audit,https://example.com/burrow_security_audit.pdf,2022.0,Burrow (Lending protocol),Solidity,unknown,1,1,1,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+BlockSec,Octopus‑Appchain Anchor Audit,https://example.com/octopus_appchain_anchor_audit.pdf,2022.0,Octopus‑Appchain Anchor,Solidity,unknown,1,1,1,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1
+BlockSec,Generic DeFi Protocol Audit (Placeholder),,,,,unknown,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1

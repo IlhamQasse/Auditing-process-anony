@@ -1,0 +1,161 @@
+Provider,Project,Year,Scope,Methodology,Detailed Findings,Severity definitions (legend),Status/Verification (per-issue),Versioning/Traceability,Disclaimers/Limitations,Executive Summary,System Overview / Architecture,Findings Summary Table,Threat/Trust Model,Privileged Roles / Upgradeability,Testing / Coverage Quality,Documentation Quality,Tools & Automation
+Beosin,VoltToken,2018.0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+Beosin,OneSwap,2020.0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1
+Beosin,LeverFi,2022.0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1
+Beosin,Aqua Protocol,2024.0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1
+Callisto Network,Cryptonity,2018.0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Callisto Network,Cryptomillions.io,2019.0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Callisto Network,MyPet Social Token,2021.0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Callisto Network,TraderDAOa,2023.0,1,0,1,0,1,0,1,1,0,0,0,0,1,1,0
+ChainSecurity,Kyber Network,2018.0,1,0,1,0,1,0,1,1,0,0,0,0,1,1,0
+ChainSecurity,OmniBridge,2021.0,1,0,1,0,1,0,1,1,0,0,0,0,0,0,0
+ChainSecurity,Starknet Teleport,2022.0,1,0,1,0,1,0,1,1,0,0,0,0,0,0,0
+ChainSecurity,Enzyme,2024.0,1,0,1,0,1,0,1,1,0,0,0,0,0,0,0
+Coinsult,UncleTrump AI,2025.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+ContractWolf,ZKS Token,2023.0,1,1,1,0,1,0,1,1,0,0,0,0,0,0,1
+ContractWolf,GETE Network,2025.0,1,1,1,0,1,0,1,1,0,0,0,0,0,0,1
+Cyberscope,,2022.0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0
+Cyberscope,OpenLiquidity,2024.0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0
+EtherAuthority,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+EtherAuthority,ARSI Token,2023.0,1,1,1,0,1,0,1,1,0,0,0,0,0,1,1
+EtherAuthority,Tether USD (USDT),2025.0,1,1,1,0,1,0,1,1,0,0,0,0,0,1,1
+FreshCoins,Minidoge,2022.0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+FreshCoins,3N rewards,2024.0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+FreshCoins,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Hacken.io,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Hacken.io,Neptune Mutual,2023.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+Hacken.io,RedStone Finance,2025.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+HashEx,Zelwin,2021.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,0
+HashEx,Liquid Apes,2023.0,1,1,1,0,1,0,0,1,0,0,0,0,1,0,0
+HashEx,Evedex,2025.0,1,1,1,0,1,0,0,1,0,0,0,0,1,0,0
+InterFi Audits,ABI,2021.0,1,1,1,0,1,0,0,1,0,0,0,0,1,0,1
+InterFi Audits,Black Stallion,2023.0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1
+Omniscia,Agrofarm,2021.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,1
+Omniscia,Bolide Finance Main Storage,2023.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,1
+Omniscia,Limit Break Creator Token Transfer Validator V5,2025.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,1
+Paladin Blockchain Security,Thoreum Finance,2021.0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Paladin Blockchain Security,Brewlabs,2023.0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Paladin Blockchain Security,Pangolin,2025.0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+PeckShield,BoringDAO,2020.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+PeckShield,Bomb Token,2022.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+PeckShield,Babypie protocol,2024.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+Quantstamp,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Quantstamp,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Quantstamp,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Quantstamp,,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+QuillAudits,TravelHelper,2018.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+QuillAudits,COXENA,2020.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,1
+QuillAudits,Animal Token,2022.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,1
+QuillAudits,AirLyft,2024.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,1
+Sherlock,Flux Protocol,2022.0,1,1,1,0,1,0,0,1,0,0,0,0,1,1,0
+Sherlock,Truflation,2024.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0
+SlowMist,Ord,2023.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+SlowMist,Jovay,2025.0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+Trail of Bits,"Aleo snarkVM, snarkOS & Bullshark BFT",2023.0,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1
+Trail of Bits,Balancer V2 Security Assessment,2021.0,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1
+Trail of Bits,Maple Finance Security Assessment,2022.0,1,1,1,0,1,0,1,1,1,1,0,0,1,1,1
+OpenZeppelin,Aave Protocol v2 Audit,2020.0,1,1,1,0,1,0,1,1,1,0,1,0,1,1,1
+OpenZeppelin,Compound Protocol Comprehensive Audit,2022.0,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+OpenZeppelin,TruMATIC Smart Contracts Audit,2023.0,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1
+ConsenSys Diligence,GrowthDeFi WHEAT Audit,2021.0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,1
+ConsenSys Diligence,Arbitrum Nitro Smart Contracts Audit,2022.0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,1
+ConsenSys Diligence,Forta Delegated Staking Audit,2022.0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,1
+Quantstamp,SynFutures v3 Audit,2023.0,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1
+Quantstamp,Ondo Finance Audit,2021.0,1,1,1,0,1,0,1,1,1,1,0,0,1,1,1
+Quantstamp,Mezo Points Portal & Bitcoin Bridge Audit,2024.0,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1
+CertiK,STFX V2 Staking Audit,2023.0,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1
+CertiK,Folks Finance Audit,2022.0,1,1,1,1,1,0,1,1,0,1,0,0,1,1,1
+CertiK,Mint Club V2 Audit,2024.0,1,1,1,1,1,0,1,1,0,1,0,0,1,1,1
+Kudelski Security,Wormhole Security Assessment,2022.0,1,1,1,0,1,0,1,1,1,0,1,0,1,1,1
+Kudelski Security,Marinade.finance Security Assessment,2021.0,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1
+Kudelski Security,TrustWallet Starknet-rs Secure Code Review,2023.0,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1
+Halborn,Harvest Strategy Security Assessment,2025.0,1,1,1,1,1,0,1,1,1,0,0,0,1,1,1
+Halborn,Beanstalk Basin Security Assessment,2023.0,1,1,1,1,1,0,1,1,1,0,0,0,1,1,1
+Halborn,Stader Labs ETHx Security Assessment,2023.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+Hacken,Covalent X Token Audit,2024.0,1,1,1,1,1,0,1,1,0,1,0,0,1,1,1
+Hacken,Aurora Labs Voting Contracts Audit,2023.0,1,1,1,1,1,0,1,1,0,0,0,1,1,1,1
+Hacken,Tokeny T‑REX Smart Contracts Audit,2023.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+Zokyo,Penpie Smart Contract Audit (V1),2023.0,1,1,1,1,1,0,1,1,0,1,0,0,1,1,1
+Zokyo,Penpie Smart Contract Audit (V2),2023.0,1,1,1,0,1,0,1,1,0,1,0,1,1,1,1
+Zokyo,Minterest Smart Contract Audit,2022.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+Zellic,1inch Farming Audit,2022.0,1,1,1,0,1,0,1,1,0,1,0,0,1,1,1
+Zellic,Anzen Finance Audit,2024.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+Zellic,Avantis Smart Contract Security Assessment,2023.0,1,1,1,0,1,0,1,1,1,0,0,0,1,1,1
+PeckShield,Penpie Protocol Audit,2024.0,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1
+PeckShield,Extra Finance Protocol Audit,2024.0,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1
+PeckShield,uniBTC Audit,2024.0,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1
+Beosin,ApeironToken,2023.0,1,1,1,1,1,0,0,1,1,1,0,0,0,0,1
+Beosin,DECHAT,2023.0,1,1,1,1,1,0,0,1,1,1,0,0,0,0,1
+Beosin,SWO,2023.0,1,1,1,1,1,0,0,1,1,1,0,0,0,0,1
+Blocksafu,Baby Ethereum,2022.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Blocksafu,Agrocoin,2022.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Blocksafu,ApeGuild,2022.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Callisto Network,USDC Token,2023.0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1
+Callisto Network,Hydro Token,2018.0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1
+Callisto Network,Monsta Infinite,2021.0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+Coinsult,DogePoki,2025.0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1
+Coinsult,Earthmeta,2024.0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1
+Coinsult,AICompanions,2023.0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1
+ContractWolf,Asterix,2022.0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0
+ContractWolf,BNB Bet Club,2023.0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0
+ContractWolf,ADA20,2024.0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0
+Cyberscope,EonHero,2021.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Cyberscope,ADDAMS Token,2023.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Cyberscope,RAIFI Community,2025.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+EtherAuthority,WhaleSwap,2021.0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1
+EtherAuthority,6ense Token,2023.0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1
+EtherAuthority,Rocket Pool rETH,2024.0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,1
+FreshCoins,Cryptonomics,2022.0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,0
+FreshCoins,NGA Tiger,2023.0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,0
+FreshCoins,MemeNexusAI,2024.0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,0
+InterFi Audits,Sparklo,2022.0,1,1,1,0,0,0,0,1,0,1,0,1,0,0,0
+InterFi Audits,Meemo,2023.0,1,1,1,0,0,0,0,1,0,1,0,1,0,0,0
+InterFi Audits,FJB,2024.0,1,1,1,0,0,0,0,1,0,1,0,1,0,0,0
+Paladin Blockchain Security,Camelot,2022.0,1,1,1,0,1,0,1,1,0,1,0,0,0,0,1
+Paladin Blockchain Security,Smardex,2023.0,1,1,1,0,1,0,1,1,0,1,0,0,0,0,1
+Paladin Blockchain Security,Derive,2024.0,1,1,1,0,1,0,1,1,0,1,0,0,0,0,1
+Soken,Cabana,2021.0,1,1,1,0,0,0,0,1,0,0,0,0,1,0,1
+Soken,Amica Token,2022.0,1,1,1,0,0,0,0,1,0,0,0,0,1,0,1
+Soken,AIFIN,2023.0,1,1,1,0,0,0,0,1,0,0,0,0,1,0,1
+SolidProof,AniFi World,2022.0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0
+SolidProof,Poodlana,2024.0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0
+SolidProof,Dephaser,2025.0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0
+TechRate,AXIEDOGE,2021.0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0
+TechRate,VRFI,2022.0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0
+TechRate,Midareum,2024.0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0
+Verichains Lab,UNS Token,2022.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Verichains Lab,Amnis Finance,2023.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Verichains Lab,Ronin Marketplace,2024.0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+ChainSecurity,HelloGold Public Report,2017.0,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1
+ChainSecurity,Wrapped M Token Audit,2024.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+ChainSecurity,MUSD Extension Audit,2025.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+Omniscia,Gravita Protocol Audit,2023.0,1,1,1,0,1,0,1,1,1,1,0,0,1,1,1
+Omniscia,Sophon Staking & Merkle Contracts Audit,2025.0,1,1,1,0,1,0,1,1,1,1,0,0,1,1,1
+Omniscia,Support Infrastructure Security Review,2024.0,1,1,1,0,1,0,1,1,0,1,0,0,1,1,1
+Cyfrin,LinkPool LiquidSD Index Pool Audit,2023.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+Cyfrin,Wormhole Thermae v2.1 Audit,2024.0,1,1,1,1,1,0,1,1,0,1,0,0,1,1,1
+Cyfrin,Ondo Finance v2.0 Audit,2024.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+QuillAudits,CyberPerp Audit,2024.0,1,1,1,1,1,0,1,1,1,0,0,0,1,1,1
+QuillAudits,CyberPerp Audit (Re-check),2024.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+QuillAudits,CyberPerp Audit (Final Review),2024.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+HashEx,ENO Final Audit,2024.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+HashEx,0xACID Final Audit,2023.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+HashEx,Avana Token Final Audit,2023.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+Sherlock,Covalent Security Review,2024.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+Sherlock,Olympus Security Review,2023.0,1,1,1,0,1,0,1,1,1,0,0,0,1,1,1
+Sherlock,Dinari Security Review,2023.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+Runtime Verification,Dual Governance Formal Verification (Lido),2025.0,1,1,1,1,1,0,1,1,0,0,1,0,1,1,1
+Runtime Verification,StellarBroker Security Audit,2025.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+Runtime Verification,Synonym Audit Report,2023.0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,1
+Sigma Prime,Eth‑Docker Updates Security Assessment,2024.0,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1
+Sigma Prime,Eth‑Docker Security Assessment (Initial),2023.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+Sigma Prime,Stader Labs ETHx Phase 2 Security Assessment,2023.0,1,1,1,1,1,0,1,1,1,0,0,0,1,1,1
+Pessimistic,1inch Aggregation Router V6 Security Analysis,2024.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+Pessimistic,Morpho Vaults Security Analysis,2023.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+Pessimistic,Morpho Security Analysis,2022.0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1
+0xGuard,Arbius Marketplace Security Assessment,2024.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+0xGuard,XcelSwap Security Assessment,2022.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+0xGuard,Champion Finance EVIC Security Assessment,2022.0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,1
+BlockSec,Burrow Security Audit,2022.0,1,1,1,0,1,0,1,1,1,0,0,0,1,1,1
+BlockSec,Octopus‑Appchain Anchor Audit,2022.0,1,1,1,0,1,0,1,1,1,0,0,0,1,1,1
+BlockSec,Generic DeFi Protocol Audit (Placeholder),,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0

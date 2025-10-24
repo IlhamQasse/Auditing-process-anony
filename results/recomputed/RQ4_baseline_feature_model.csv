@@ -1,0 +1,16 @@
+feature,group,mandatory,maps_to_ctx_column
+Scope,Context,True,Scope
+Methodology,Approach,True,Methodology / Procedure
+Detailed Findings,Findings,True,Detailed Findings
+Severity definitions (legend),Findings,True,Severity Model / Risk Classification
+Status/Verification (per-issue),Findings,True,Status of Findings / Verification
+Versioning/Traceability,Approach,True,Versioning & References
+Disclaimers/Limitations,Context,True,Limitations / Disclaimers / Non-Goals
+Executive Summary,Context,False,Executive Summary
+System Overview / Architecture,Context,False,System/Protocol Overview
+Findings Summary Table,Findings,False,Findings Summary (Table)
+Threat/Trust Model,Context,False,Threat / Trust Model
+Privileged Roles / Upgradeability,Context,False,Privileged Roles & Centralisation Risks
+Testing / Coverage Quality,Approach,False,Testing / Coverage Quality
+Documentation Quality,Approach,False,Documentation Quality
+Tools & Automation,Approach,False,Tools & Automation

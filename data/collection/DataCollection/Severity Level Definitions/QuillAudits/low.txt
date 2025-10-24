@@ -1,0 +1,2 @@
+Low-level severity issues can cause minor impact and are just warnings that can remain
+unfixed for now. It would be better to fix these issues at some point in the future

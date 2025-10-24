@@ -1,0 +1,2 @@
+A vulnerability that could affect the desired outcome of executing the
+contract with high impact; needs to be fixed with high priority

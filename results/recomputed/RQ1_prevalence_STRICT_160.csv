@@ -1,0 +1,20 @@
+Property,Support,Coverage_pct
+Detailed Findings,160,100.0
+Executive Summary,151,94.375
+Recommendations / Remediation Guidance,149,93.125
+Scope,144,90.0
+Methodology / Procedure,135,84.375
+Status of Findings / Verification,115,71.875
+Tools & Automation,108,67.5
+Limitations / Disclaimers / Non-Goals,85,53.125
+Testing / Coverage Quality,84,52.5
+Documentation Quality,79,49.375
+System/Protocol Overview,44,27.500000000000004
+Severity Model / Risk Classification,42,26.25
+Findings Summary (Table),42,26.25
+Risk Taxonomy / Terminology & References,27,16.875
+Threat / Trust Model,14,8.75
+Privileged Roles & Centralisation Risks,14,8.75
+Timeline / Engagement Details,5,3.125
+Upgradeability / Governance Controls,4,2.5
+Versioning & References,1,0.625

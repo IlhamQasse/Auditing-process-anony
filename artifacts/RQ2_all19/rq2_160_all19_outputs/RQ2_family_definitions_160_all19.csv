@@ -1,0 +1,6 @@
+Family,Definition (all_of),Definition (any_of)
+Executive-Packaged,Executive Summary,"Severity Model / Risk Classification, Findings Summary (Table)"
+Core-Engineering,System/Protocol Overview,"Methodology / Procedure, Tools & Automation, Testing / Coverage Quality"
+Remediation-First,(none),"Recommendations / Remediation Guidance, Status of Findings / Verification"
+Governance-Focused,(none),"Threat / Trust Model, Privileged Roles & Centralisation Risks, Upgradeability / Governance Controls"
+Legal/Taxonomy-Heavy,Limitations / Disclaimers / Non-Goals,"Risk Taxonomy / Terminology & References, Severity Model / Risk Classification"

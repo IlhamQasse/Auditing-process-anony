@@ -1,0 +1,15 @@
+IntentSize,Support,Intent
+1,160,Detailed Findings
+2,115,Detailed Findings; Status of Findings / Verification
+3,112,Detailed Findings; Recommendations / Remediation Guidance; Status of Findings / Verification
+4,93,Detailed Findings; Recommendations / Remediation Guidance; Status of Findings / Verification; Tools & Automation
+5,92,Detailed Findings; Executive Summary; Recommendations / Remediation Guidance; Status of Findings / Verification; Tools & Automation
+6,90,Detailed Findings; Executive Summary; Methodology / Procedure; Recommendations / Remediation Guidance; Status of Findings / Verification; Tools & Automation
+7,88,Detailed Findings; Executive Summary; Methodology / Procedure; Recommendations / Remediation Guidance; Scope; Status of Findings / Verification; Tools & Automation
+8,71,Detailed Findings; Executive Summary; Limitations / Disclaimers / Non-Goals; Methodology / Procedure; Recommendations / Remediation Guidance; Scope; Status of Findings / Verification; Tools & Automation
+9,66,Detailed Findings; Documentation Quality; Executive Summary; Limitations / Disclaimers / Non-Goals; Methodology / Procedure; Recommendations / Remediation Guidance; Scope; Status of Findings / Verification; Tools & Automation
+10,64,Detailed Findings; Documentation Quality; Executive Summary; Limitations / Disclaimers / Non-Goals; Methodology / Procedure; Recommendations / Remediation Guidance; Scope; Status of Findings / Verification; Testing / Coverage Quality; Tools & Automation
+11,3,Detailed Findings; Documentation Quality; Executive Summary; Limitations / Disclaimers / Non-Goals; Methodology / Procedure; Recommendations / Remediation Guidance; Scope; Status of Findings / Verification; Testing / Coverage Quality; Tools & Automation; Upgradeability / Governance Controls
+12,2,Detailed Findings; Documentation Quality; Executive Summary; Limitations / Disclaimers / Non-Goals; Methodology / Procedure; Recommendations / Remediation Guidance; Scope; Status of Findings / Verification; Testing / Coverage Quality; Timeline / Engagement Details; Tools & Automation; Upgradeability / Governance Controls
+15,1,Detailed Findings; Documentation Quality; Executive Summary; Limitations / Disclaimers / Non-Goals; Methodology / Procedure; Privileged Roles & Centralisation Risks; Recommendations / Remediation Guidance; Risk Taxonomy / Terminology & References; Scope; Severity Model / Risk Classification; Status of Findings / Verification; Testing / Coverage Quality; Timeline / Engagement Details; Tools & Automation; Upgradeability / Governance Controls
+19,0,Detailed Findings; Documentation Quality; Executive Summary; Findings Summary (Table); Limitations / Disclaimers / Non-Goals; Methodology / Procedure; Privileged Roles & Centralisation Risks; Recommendations / Remediation Guidance; Risk Taxonomy / Terminology & References; Scope; Severity Model / Risk Classification; Status of Findings / Verification; System/Protocol Overview; Testing / Coverage Quality; Threat / Trust Model; Timeline / Engagement Details; Tools & Automation; Upgradeability / Governance Controls; Versioning & References

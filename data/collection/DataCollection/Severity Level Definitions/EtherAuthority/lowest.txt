@@ -1,0 +1,1 @@
+Lowest-level vulnerabilities, code style violations and info statements can’t affect smart contract execution and can be ignored.

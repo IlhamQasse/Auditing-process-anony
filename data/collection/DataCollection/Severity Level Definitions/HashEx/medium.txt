@@ -1,0 +1,2 @@
+Issues that do not lead to a loss of funds directly, but break the contract logic.
+May lead to failures in contracts operation.

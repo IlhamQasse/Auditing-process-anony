@@ -1,0 +1,4 @@
+Issues that may cause an unlimited loss of funds or entirely break the contract
+workflow. Malicious code (including malicious modification of libraries) is also treated as a
+critical severity issue. These issues must be fixed before deployments or fixed in already
+running projects as soon as possible.

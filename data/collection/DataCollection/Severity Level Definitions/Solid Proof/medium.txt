@@ -1,0 +1,8 @@
+A vulnerability that
+could affect the
+desired outcome of
+executing the
+contract in a specific
+scenario. Implementation of
+corrective actions in a
+certain period

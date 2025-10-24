@@ -1,0 +1,1 @@
+Critical vulnerabilities are usually straightforward to exploit and can lead to token loss etc

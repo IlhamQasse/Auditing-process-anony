@@ -1,0 +1,2 @@
+A vulnerability that could affect the desired outcome of executing the
+contract with medium impact in a specific scenario; needs to be fixed

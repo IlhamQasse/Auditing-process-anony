@@ -1,0 +1,96 @@
+family,feature,support,n_family,rate_pct
+Executive-Packaged,Executive Summary,69,69,100.0
+Executive-Packaged,Scope,69,69,100.0
+Executive-Packaged,System/Protocol Overview,35,69,50.7
+Executive-Packaged,Versioning & References,1,69,1.4
+Executive-Packaged,Methodology / Procedure,69,69,100.0
+Executive-Packaged,Tools & Automation,60,69,87.0
+Executive-Packaged,Severity Model / Risk Classification,42,69,60.9
+Executive-Packaged,Findings Summary (Table),42,69,60.9
+Executive-Packaged,Detailed Findings,69,69,100.0
+Executive-Packaged,Recommendations / Remediation Guidance,67,69,97.1
+Executive-Packaged,Status of Findings / Verification,54,69,78.3
+Executive-Packaged,Threat / Trust Model,12,69,17.4
+Executive-Packaged,Privileged Roles & Centralisation Risks,11,69,15.9
+Executive-Packaged,Risk Taxonomy / Terminology & References,27,69,39.1
+Executive-Packaged,Timeline / Engagement Details,4,69,5.8
+Executive-Packaged,Testing / Coverage Quality,48,69,69.6
+Executive-Packaged,Documentation Quality,48,69,69.6
+Executive-Packaged,Upgradeability / Governance Controls,3,69,4.3
+Executive-Packaged,Limitations / Disclaimers / Non-Goals,51,69,73.9
+Core-Engineering,Executive Summary,44,44,100.0
+Core-Engineering,Scope,44,44,100.0
+Core-Engineering,System/Protocol Overview,44,44,100.0
+Core-Engineering,Versioning & References,1,44,2.3
+Core-Engineering,Methodology / Procedure,44,44,100.0
+Core-Engineering,Tools & Automation,37,44,84.1
+Core-Engineering,Severity Model / Risk Classification,23,44,52.3
+Core-Engineering,Findings Summary (Table),22,44,50.0
+Core-Engineering,Detailed Findings,44,44,100.0
+Core-Engineering,Recommendations / Remediation Guidance,44,44,100.0
+Core-Engineering,Status of Findings / Verification,35,44,79.5
+Core-Engineering,Threat / Trust Model,13,44,29.5
+Core-Engineering,Privileged Roles & Centralisation Risks,6,44,13.6
+Core-Engineering,Risk Taxonomy / Terminology & References,11,44,25.0
+Core-Engineering,Timeline / Engagement Details,3,44,6.8
+Core-Engineering,Testing / Coverage Quality,32,44,72.7
+Core-Engineering,Documentation Quality,32,44,72.7
+Core-Engineering,Upgradeability / Governance Controls,0,44,0.0
+Core-Engineering,Limitations / Disclaimers / Non-Goals,32,44,72.7
+Remediation-First,Executive Summary,150,152,98.7
+Remediation-First,Scope,144,152,94.7
+Remediation-First,System/Protocol Overview,44,152,28.9
+Remediation-First,Versioning & References,1,152,0.7
+Remediation-First,Methodology / Procedure,135,152,88.8
+Remediation-First,Tools & Automation,108,152,71.1
+Remediation-First,Severity Model / Risk Classification,42,152,27.6
+Remediation-First,Findings Summary (Table),42,152,27.6
+Remediation-First,Detailed Findings,152,152,100.0
+Remediation-First,Recommendations / Remediation Guidance,149,152,98.0
+Remediation-First,Status of Findings / Verification,115,152,75.7
+Remediation-First,Threat / Trust Model,14,152,9.2
+Remediation-First,Privileged Roles & Centralisation Risks,14,152,9.2
+Remediation-First,Risk Taxonomy / Terminology & References,27,152,17.8
+Remediation-First,Timeline / Engagement Details,5,152,3.3
+Remediation-First,Testing / Coverage Quality,84,152,55.3
+Remediation-First,Documentation Quality,79,152,52.0
+Remediation-First,Upgradeability / Governance Controls,4,152,2.6
+Remediation-First,Limitations / Disclaimers / Non-Goals,84,152,55.3
+Governance-Focused,Executive Summary,29,29,100.0
+Governance-Focused,Scope,29,29,100.0
+Governance-Focused,System/Protocol Overview,18,29,62.1
+Governance-Focused,Versioning & References,0,29,0.0
+Governance-Focused,Methodology / Procedure,29,29,100.0
+Governance-Focused,Tools & Automation,20,29,69.0
+Governance-Focused,Severity Model / Risk Classification,10,29,34.5
+Governance-Focused,Findings Summary (Table),16,29,55.2
+Governance-Focused,Detailed Findings,29,29,100.0
+Governance-Focused,Recommendations / Remediation Guidance,28,29,96.6
+Governance-Focused,Status of Findings / Verification,20,29,69.0
+Governance-Focused,Threat / Trust Model,14,29,48.3
+Governance-Focused,Privileged Roles & Centralisation Risks,14,29,48.3
+Governance-Focused,Risk Taxonomy / Terminology & References,5,29,17.2
+Governance-Focused,Timeline / Engagement Details,3,29,10.3
+Governance-Focused,Testing / Coverage Quality,20,29,69.0
+Governance-Focused,Documentation Quality,20,29,69.0
+Governance-Focused,Upgradeability / Governance Controls,4,29,13.8
+Governance-Focused,Limitations / Disclaimers / Non-Goals,23,29,79.3
+Legal/Taxonomy-Heavy,Executive Summary,36,36,100.0
+Legal/Taxonomy-Heavy,Scope,36,36,100.0
+Legal/Taxonomy-Heavy,System/Protocol Overview,17,36,47.2
+Legal/Taxonomy-Heavy,Versioning & References,1,36,2.8
+Legal/Taxonomy-Heavy,Methodology / Procedure,36,36,100.0
+Legal/Taxonomy-Heavy,Tools & Automation,36,36,100.0
+Legal/Taxonomy-Heavy,Severity Model / Risk Classification,36,36,100.0
+Legal/Taxonomy-Heavy,Findings Summary (Table),12,36,33.3
+Legal/Taxonomy-Heavy,Detailed Findings,36,36,100.0
+Legal/Taxonomy-Heavy,Recommendations / Remediation Guidance,34,36,94.4
+Legal/Taxonomy-Heavy,Status of Findings / Verification,36,36,100.0
+Legal/Taxonomy-Heavy,Threat / Trust Model,8,36,22.2
+Legal/Taxonomy-Heavy,Privileged Roles & Centralisation Risks,3,36,8.3
+Legal/Taxonomy-Heavy,Risk Taxonomy / Terminology & References,21,36,58.3
+Legal/Taxonomy-Heavy,Timeline / Engagement Details,2,36,5.6
+Legal/Taxonomy-Heavy,Testing / Coverage Quality,36,36,100.0
+Legal/Taxonomy-Heavy,Documentation Quality,36,36,100.0
+Legal/Taxonomy-Heavy,Upgradeability / Governance Controls,2,36,5.6
+Legal/Taxonomy-Heavy,Limitations / Disclaimers / Non-Goals,36,36,100.0

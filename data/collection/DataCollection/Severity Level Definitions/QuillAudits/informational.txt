@@ -1,0 +1,7 @@
+These are four severity issues that indicate an improvement request, a general question,
+a cosmetic or documentation error, or a request for information. There is low-to-no
+impact.
+Informational
+Types of Issues
+Security vulnerabilities identified that must be resolved and are currently unresolved.
+Open

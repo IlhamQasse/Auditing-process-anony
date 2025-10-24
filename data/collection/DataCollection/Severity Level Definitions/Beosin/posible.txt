@@ -1,0 +1,2 @@
+Possible likelihood generally means that exploiting such vulnerability requires a certain cost, or there
+are certain conditions for exploitation, and the vulnerability is not easily and consistently triggered.

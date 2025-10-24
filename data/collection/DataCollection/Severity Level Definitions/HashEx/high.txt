@@ -1,0 +1,3 @@
+Issues that may lead to a limited loss of funds, break interaction with users, or other
+contracts under specific conditions. Also, issues in a smart contract, that allow a privileged
+account the ability to steal or block other users' funds.

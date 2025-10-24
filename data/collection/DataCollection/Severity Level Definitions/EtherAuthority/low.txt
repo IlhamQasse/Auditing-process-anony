@@ -1,0 +1,1 @@
+Low-level vulnerabilities are mostly related to outdated, unused etc. code snippets, that can’t have significant impact on execution

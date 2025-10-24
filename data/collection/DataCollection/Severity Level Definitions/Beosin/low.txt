@@ -1,0 +1,2 @@
+Low impact generally refers to the vulnerability can have a minor impact on the smart contract, which
+can pose certain security threat to the contract business system and needs to be improved.

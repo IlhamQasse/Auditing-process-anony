@@ -1,0 +1,7 @@
+A vulnerability that
+have informational
+character but is not
+effecting any of the
+code. An observation that
+does not determine a
+level of risk

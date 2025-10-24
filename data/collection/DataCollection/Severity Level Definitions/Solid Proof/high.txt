@@ -1,0 +1,9 @@
+A vulnerability that
+affects the desired
+outcome when using
+a contract, or provides
+the opportunity to
+use a contract in an
+unintended way. Implementation of
+corrective actions as
+soon aspossible

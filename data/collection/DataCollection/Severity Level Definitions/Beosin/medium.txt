@@ -1,0 +1,4 @@
+Medium impact generally refers to the vulnerability can have a relatively minor impact on the
+confidentiality, integrity, availability of the smart contract or its economic model, which can cause a
+small amount of economic loss to the contract business system, individual business unavailability and
+other impact.

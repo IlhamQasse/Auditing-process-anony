@@ -1,0 +1,2 @@
+These risks are hard to exploit but very important to fix, they carry an elevated risk
+of smart contract manipulation, which can lead to high-risk severity

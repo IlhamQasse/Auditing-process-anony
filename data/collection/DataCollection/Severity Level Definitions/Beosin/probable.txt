@@ -1,0 +1,2 @@
+Probable likelihood generally means that the cost required to exploit the vulnerability is low, with no
+special exploitation threshold, and the vulnerability can be triggered consistently

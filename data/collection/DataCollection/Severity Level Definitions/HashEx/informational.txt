@@ -1,0 +1,2 @@
+Issues that do not impact the contract operation. Usually, informational
+severity issues are related to code best practices, e.g. style guide.

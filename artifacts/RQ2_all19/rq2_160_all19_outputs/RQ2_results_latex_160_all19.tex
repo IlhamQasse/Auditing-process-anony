@@ -1,0 +1,42 @@
+
+\subsection{RQ2 (All 19 properties, N=160): Do audit reports cluster into recognizable style families?}
+
+\paragraph{Setup.} We re-ran the full RQ2 pipeline on all \textbf{19} canonical properties by
+augmenting the 160-report matrix with text-derived signals from the additional spreadsheets you provided
+(Report Structure, Methodology, Severity definitions, Knowledge). We parsed these fields using
+regular expressions to detect the presence of each section (e.g., severity taxonomy, threat/trust model,
+timeline, versioning, governance controls), and merged them with the original binary codings via the report link.
+
+\paragraph{Prevalence (all 19).} \textbf{Detailed Findings} is present in \emph{every} report (160/160), and is therefore
+\underline{not} used to define families. High-coverage properties include \emph{Executive Summary} (151/160, 94.4\%),
+\emph{Recommendations} (149/160, 93.1\%), \emph{Scope} (144/160, 90.0\%), \emph{Methodology} (135/160, 84.4\%),
+\emph{Status/Verification} (115/160, 71.9\%), and \emph{Tools \& Automation} (108/160, 67.5\%). Mid-to-low coverage properties
+include \emph{Limitations/Disclaimers} (85/160, 53.1\%), \emph{Testing/Coverage} (84/160, 52.5\%), \emph{Documentation Quality} (79/160, 49.4\%),
+\emph{System/Protocol Overview} (44/160, 27.5\%), \emph{Severity Model} (42/160, 26.2\%), \emph{Findings Summary (Table)} (42/160, 26.2\%),
+\emph{Risk Taxonomy/Terminology} (27/160, 16.9\%), \emph{Threat/Trust Model} (14/160, 8.8\%), \emph{Privileged Roles/Centralisation} (14/160, 8.8\%),
+\emph{Timeline} (5/160, 3.1\%), \emph{Upgradeability/Governance Controls} (4/160, 2.5\%), and \emph{Versioning/References} (1/160, 0.6\%).
+
+\paragraph{Concept lattice.} The lattice enumerates 14 closed intents. The highest-support patterns stack actionability and packaging on
+top of the backbone: \{Detailed Findings; Status/Verification\} (support 115), \{Detailed Findings; Recommendations; Status/Verification\} (43),
+\{Detailed Findings; Recommendations; Status/Verification; Tools\} (24), and \{Detailed Findings; Executive Summary; Recommendations; Status/Verification; Tools\} (23).
+This indicates that remediation \& verification often co-occur and are frequently accompanied by tool-based engineering and executive packaging.
+
+\paragraph{Implications.} A pruned basis (422 implications after redundancy filtering) highlights that communication and method sections entail
+technical substance, e.g., \emph{Executive Summary} $\Rightarrow$ \emph{Detailed Findings} (151), \emph{Scope} $\Rightarrow$ \emph{Detailed Findings; Executive Summary} (144),
+\emph{Methodology} $\Rightarrow$ \emph{Detailed Findings; Executive Summary} (135). In other words, packaging and methodology rarely appear without detailed analysis.
+
+\paragraph{Style families (all 19, Detailed Findings excluded).} We define five non-exclusive families aligned to the full property set:
+(i) \textbf{Executive-Packaged} = Executive Summary \emph{and} (Severity Model \emph{or} Findings Table);
+(ii) \textbf{Core-Engineering} = System Overview \emph{and} (Methodology \emph{or} Tools \emph{or} Testing);
+(iii) \textbf{Remediation-First} = Recommendations \emph{or} Status/Verification;
+(iv) \textbf{Governance-Focused} = Threat/Trust \emph{or} Privileged Roles \emph{or} Upgradeability/Governance;
+(v) \textbf{Legal/Taxonomy-Heavy} = Limitations/Disclaimers \emph{and} (Risk Taxonomy/Terminology \emph{or} Severity Model).
+Coverage across N=160: Remediation-First 95.0\%, Executive-Packaged 43.1\%, Core-Engineering 27.5\%,
+Legal/Taxonomy-Heavy 22.5\%, Governance-Focused 18.1\%. Reports commonly layer multiple families, consistent with the lattice.
+
+\paragraph{Soft adoption by provider.} We compute per-provider soft ratios (fraction of each provider's reports matching a family).
+Adoption is broad for Remediation-First, while Executive-Packaged and Core-Engineering vary by provider specialization.
+Governance-Focused and Legal/Taxonomy-Heavy are less common and concentrated among a subset of providers.
+
+\paragraph{Artifacts.} We release CSVs for the 160-report, 19-property context, prevalence, lattice concepts, implications and pruned basis,
+family definitions and coverage, and provider$\times$family soft ratios, plus a heatmap figure. See supplemental material in the main text.

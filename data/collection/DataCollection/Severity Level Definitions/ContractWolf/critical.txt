@@ -1,0 +1,1 @@
+An exposure that can affect the contract functions in several events that can risk and disrupt the contract

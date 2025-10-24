@@ -1,0 +1,10 @@
+A vulnerability that
+does not have a
+significant impact on
+possible scenarios for
+the use of the
+contract and is
+probably subjective, Implementation of
+certain corrective
+actions or accepting
+the risk.

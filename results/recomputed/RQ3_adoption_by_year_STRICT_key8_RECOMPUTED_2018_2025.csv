@@ -1,0 +1,65 @@
+year,feature,overall_rate,perfirm_rate,n_reports,n_firms
+2018,Automated tools mentioned,0.4,0.5,5,4
+2019,Automated tools mentioned,0.0,0.0,1,1
+2020,Automated tools mentioned,1.0,1.0,4,4
+2021,Automated tools mentioned,0.5333333333333333,0.5714285714285714,15,14
+2022,Automated tools mentioned,0.6129032258064516,0.64,31,25
+2023,Automated tools mentioned,0.8181818181818182,0.896551724137931,44,29
+2024,Automated tools mentioned,0.7428571428571429,0.76,35,25
+2025,Automated tools mentioned,0.75,0.6923076923076923,16,13
+2018,Executive summary or summary table,0.8,0.75,5,4
+2019,Executive summary or summary table,1.0,1.0,1,1
+2020,Executive summary or summary table,0.75,0.75,4,4
+2021,Executive summary or summary table,1.0,1.0,15,14
+2022,Executive summary or summary table,1.0,1.0,31,25
+2023,Executive summary or summary table,1.0,1.0,44,29
+2024,Executive summary or summary table,1.0,1.0,35,25
+2025,Executive summary or summary table,1.0,1.0,16,13
+2018,Fix verification (follow-up),0.8,1.0,5,4
+2019,Fix verification (follow-up),1.0,1.0,1,1
+2020,Fix verification (follow-up),0.75,0.75,4,4
+2021,Fix verification (follow-up),0.4,0.42857142857142855,15,14
+2022,Fix verification (follow-up),0.22580645161290322,0.28,31,25
+2023,Fix verification (follow-up),0.18181818181818182,0.27586206896551724,44,29
+2024,Fix verification (follow-up),0.2,0.28,35,25
+2025,Fix verification (follow-up),0.5,0.6153846153846154,16,13
+2018,Limitations / disclaimers,0.2,0.25,5,4
+2019,Limitations / disclaimers,0.0,0.0,1,1
+2020,Limitations / disclaimers,0.25,0.25,4,4
+2021,Limitations / disclaimers,0.4,0.42857142857142855,15,14
+2022,Limitations / disclaimers,0.5483870967741935,0.56,31,25
+2023,Limitations / disclaimers,0.6363636363636364,0.7241379310344828,44,29
+2024,Limitations / disclaimers,0.6571428571428571,0.68,35,25
+2025,Limitations / disclaimers,0.4375,0.46153846153846156,16,13
+2018,Methodology,0.4,0.5,5,4
+2019,Methodology,0.0,0.0,1,1
+2020,Methodology,0.75,0.75,4,4
+2021,Methodology,0.8,0.8571428571428571,15,14
+2022,Methodology,0.9032258064516129,0.88,31,25
+2023,Methodology,0.9545454545454546,1.0,44,29
+2024,Methodology,0.9142857142857143,0.92,35,25
+2025,Methodology,0.9375,0.9230769230769231,16,13
+2018,Remediation guidance,1.0,1.0,5,4
+2019,Remediation guidance,1.0,1.0,1,1
+2020,Remediation guidance,1.0,1.0,4,4
+2021,Remediation guidance,1.0,1.0,15,14
+2022,Remediation guidance,0.967741935483871,0.96,31,25
+2023,Remediation guidance,1.0,1.0,44,29
+2024,Remediation guidance,1.0,1.0,35,25
+2025,Remediation guidance,0.875,0.9230769230769231,16,13
+2018,Scope,0.8,0.75,5,4
+2019,Scope,1.0,1.0,1,1
+2020,Scope,0.75,0.75,4,4
+2021,Scope,1.0,1.0,15,14
+2022,Scope,0.9032258064516129,0.92,31,25
+2023,Scope,1.0,1.0,44,29
+2024,Scope,0.9142857142857143,0.92,35,25
+2025,Scope,1.0,1.0,16,13
+2018,Status recorded (per-issue),0.8,1.0,5,4
+2019,Status recorded (per-issue),1.0,1.0,1,1
+2020,Status recorded (per-issue),1.0,1.0,4,4
+2021,Status recorded (per-issue),0.6666666666666666,0.7142857142857143,15,14
+2022,Status recorded (per-issue),0.6774193548387096,0.72,31,25
+2023,Status recorded (per-issue),0.7727272727272727,0.7931034482758621,44,29
+2024,Status recorded (per-issue),0.7714285714285715,0.72,35,25
+2025,Status recorded (per-issue),0.8125,0.8461538461538461,16,13

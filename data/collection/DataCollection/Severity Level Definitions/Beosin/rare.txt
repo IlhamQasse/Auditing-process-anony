@@ -1,0 +1,2 @@
+Rare likelihood generally means that the vulnerability requires an extremely high cost or the conditions
+for exploitation are extremely difficult to achieve.

@@ -1,0 +1,3 @@
+A high severity issue or vulnerability means that your smart contract can be exploited.
+Issues on this level are critical to the smart contract’s performance or functionality, and
+we recommend these issues be fixed before moving to a live environment.

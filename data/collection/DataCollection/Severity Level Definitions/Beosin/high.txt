@@ -1,0 +1,4 @@
+High impact generally refers to the vulnerability can have a relatively serious impact on the
+confidentiality, integrity, availability of the smart contract or its economic model, which can cause a
+greater economic loss, local functional unavailability, loss of credibility and other impact to the
+contract business system.

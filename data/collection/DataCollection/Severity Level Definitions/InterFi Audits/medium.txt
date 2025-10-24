@@ -1,0 +1,3 @@
+These risks should be fixed, as they carry an inherent risk of future exploits, and
+hacks which may or may not impact the smart contract execution. Low-risk reentrancy-
+related vulnerabilities should be fixed to deter exploits.

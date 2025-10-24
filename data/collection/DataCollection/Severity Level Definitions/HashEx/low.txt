@@ -1,0 +1,2 @@
+Issues that are of a non-optimal code character, for instance, gas optimization tips,
+unused variables, errors in messages.

@@ -1,0 +1,2 @@
+Critical severity vulnerabilities will have a significant impact on the security of the DeFi
+project, and it is strongly recommended to fix the critical vulnerabilities.
